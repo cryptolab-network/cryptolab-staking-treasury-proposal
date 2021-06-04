@@ -18,11 +18,23 @@ we aim to have as much context as possible to understand how a proposal came to 
 
 ## Problem statement: 
 
-CryptoLab aims to provide a solution of Polkadot/Kusama staking.
+As Polkadot/Kusama are NPoS consensus based chains, nominators are able to nominate more than one validator, which makes staking on them complicated. When users stake on most blockchains, they just need to choose one validator and delegate their funds to them. When staking on Polkadot/Kusama, they can (and mostly have to) choose up to 24 validators. It is hard for nominators to analyse so many validators to see which ones are trustworthy and are able to earn most revenue from them.
 
-No Portfolio Management tools for Polkadot/Kusama nominators.
+From our observation, nominators tends to
+
+* nominate on centralized exchanges, which hurts decentralization.
+* nominate top validators on the Target page on Polkadot App, which still hurt decentralization because by doing it, funds tend to be delegated to those already have enough backups.
+
+There are developers from the community trying to resolve the problem by providing validator ranking system and simple staking tools.
+
+yieldscan
+polkastat
+
+However, no *Portfolio Management* tools for Polkadot/Kusama nominators to track their revenue and validator status after nonimation.
 
 ## Proposal Objective/solution/s to point 2:
+
+CryptoLab aims to provide a total solution for staking on Polkadot/Kusama.
 
 There are four top-tier goals included in this propsal.
 
