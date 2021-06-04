@@ -33,6 +33,7 @@ The first two goals are focused on making what we have done better. We plan to e
 
 * Re-design the UI/UX of CryptoLab
 * Move the service to AWS to improve the performance
+* Maintain our Polkadot/Kusama archived node
 
 For the Telegram Bots for validators, we plan to,
 
@@ -94,10 +95,10 @@ The milestones include (x) phases,
     * Duration: y weeks
     * Price: x USD * y = z USD
 
-Except from the milestones above, the maintanance tasks for the current CryptoLab and Telegram Bots for validators
+Except from the milestones above, the server fee and maintanance tasks for the current CryptoLab and Telegram Bots for validators
 
 * Duration: 12 months
-* Price: 500 USD/month
+* Price: 800 USD/month
 
 ### Include any extra links completing the proposal here
 
