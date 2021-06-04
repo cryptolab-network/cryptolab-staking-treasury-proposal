@@ -27,14 +27,16 @@ From our observation, nominators tends to
 
 There are developers from the community trying to resolve the problem by providing validator ranking system and simple staking tools.
 
-yieldscan
-polkastat
+1. yieldscan (補充yieldscan在做什麼)
+2. polkastat (補充polkastat做了什麼)
 
-However, no *Portfolio Management* tools for Polkadot/Kusama nominators to track their revenue and validator status after nonimation.
+However, no *Portfolio Management* tools for Polkadot/Kusama nominators to track their staking revenue and validator status after nonimation.
 
 ## Proposal Objective/solution/s to point 2:
 
 CryptoLab aims to provide a total solution for staking on Polkadot/Kusama.
+
+We have already provided some tools on CryptoLab and also Telegram bots and accumulated regular users. It is time to polish the site and to work on providing a total solution on staking.
 
 There are four top-tier goals included in this propsal.
 
