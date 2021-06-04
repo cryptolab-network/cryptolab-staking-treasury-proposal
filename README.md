@@ -90,13 +90,6 @@ The milestones include (x) phases,
     * Duration: y weeks
     * Price: x USD * y = z USD
 
-#### Milestone 3.
-
-* Work on any feedback from both councils and users
-    * Designer: 1, Developers: 3
-    * Duration: y weeks
-    * Price: x USD * y = z USD
-
 Except from the milestones above, the server fee and maintanance tasks for the current CryptoLab and Telegram Bots for validators
 
 * Duration: 12 months
