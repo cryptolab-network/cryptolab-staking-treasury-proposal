@@ -18,6 +18,8 @@ we aim to have as much context as possible to understand how a proposal came to 
 
 ## Problem statement: 
 
+CryptoLab aims to provide a solution of Polkadot/Kusama staking.
+
 No Portfolio Management tools for Polkadot/Kusama nominators.
 
 ## Proposal Objective/solution/s to point 2:
