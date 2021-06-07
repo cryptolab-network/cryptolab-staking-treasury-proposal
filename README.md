@@ -8,7 +8,11 @@ CryptoLab
 
 ## Short description:
 
-The CryptoLab aims to help non-technical nominators build stable and risk-controlled cash flows via well-designed and financial tools. The core idea is that staking behavior is the same as investment behavior. Therefore nominators must first build good portfolios and then manage their portfolios to control risk and profit. Portfolio management is a challenging task, especially in the complicated Kusama system using NPoS consensus. Via the CryptoLab, nominators can better understand their investment performance and adjust their portfolios to gain stable profit. We believe this is a vital way to expand the Kusama community and to increase network stability.
+The CryptoLab aims to help non-technical nominators build stable and risk-controlled cash flows via well-designed and financial tools. The core idea is that staking behavior is the same as investment behavior. Therefore nominators must first build good portfolios and then manage their portfolios to control risk and profit. Portfolio management is a challenging task, especially in the complicated Kusama system using NPoS consensus. 
+
+CryptoLab website 是圍繞於財務管理的視角來設計，從基本的用詞簡字，到數據呈現皆力求平易近人，簡單明暸。我們提供三個主要的服務：1. Portfolio Benchmark, 2. Portfolio Management, 3. Nofitication Bot. 首先，Portfolio Benchmark 是一種validator評估工具，Nominators可以使用預先建制的幾種選擇策略，如：High APY, Low Risk, 1KV, Decentrailization, etc.,來建立Portfolio. 然而這僅僅是踏出第一步而已，更重要的是持續調整 Portfolio的能力。 所以我們提出市場上少見的 Protfolio Management 讓使用者得以快速且精確的了解現金流狀況，再搭配 Notification Bot 事件通知功能，即時掌握驗證者狀況，並作出調整，以降低風險。
+
+最後，Decentralization絕對是Kusama生態系一個至關重要的議題。我們相信 CryptoLab Website 可以協助 Nominators 獲得穩定收益的同時兼顧Decentralization，打破現在 validator 過度集中的現象。
 
 ## Context of the proposal: 
 we aim to have as much context as possible to understand how a proposal came to the proponent's mind, Please include here:
