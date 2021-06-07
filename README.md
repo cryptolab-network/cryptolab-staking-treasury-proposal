@@ -28,7 +28,7 @@ From our observation, nominators tends to
 There are developers from the community trying to resolve the problem by providing validator ranking system and simple staking tools.
 
 1. yieldscan (補充yieldscan在做什麼)
-2. polkastat (補充polkastat做了什麼)
+2. polkastats (補充polkastats做了什麼)
 
 However, no *Portfolio Management* tools for Polkadot/Kusama nominators to track their staking revenue and validator status after nonimation.
 
@@ -36,7 +36,7 @@ However, no *Portfolio Management* tools for Polkadot/Kusama nominators to track
 
 CryptoLab aims to provide a total solution for staking on Polkadot/Kusama.
 
-We have already provided some tools on CryptoLab and also Telegram bots and accumulated regular users. It is time to polish the site and to work on providing a total solution on staking.
+We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is time to polish the site and to work on providing a total solution on staking.
 
 There are four top-tier goals included in this propsal.
 
@@ -104,15 +104,20 @@ The milestones include (x) phases,
     * Duration: y weeks
     * Price: x USD * y = z USD
 
-Except from the milestones above, the server fee and maintanance tasks for the current CryptoLab and Telegram Bots for validators
+Except from the milestones above, the server fee and maintanance tasks for the current CryptoLab and Telegram Bots for validators. The server fee includes EC2 instances, DB and Redis instances, to run CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
 
-* Duration: 12 months
-* Price: 800 USD/month
+*We can provide the detailed estimation from AWS calculator if the commitee need it*
+
+* Duration: 6 months
+* Price: 1000 USD/month
 
 ### Include any extra links completing the proposal here
 
 ## Why Kusama? 
 
 ## If you have seen similar proposals before: why is yours different?
+
+https://kusama.polkassembly.io/treasury/82
+https://kusama.polkassembly.io/treasury/90
 
 ## Payment conditions
