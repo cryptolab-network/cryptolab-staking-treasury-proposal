@@ -94,8 +94,10 @@ The milestones include (x) phases,
     * Developers: 3
     * Duration: y weeks
     * Price: x USD * y = z USD
-* Move the service to AWS to improve the performance
-    * Included in the maintenance tasks below
+* Implement CryptoLab Staking Guide
+    * Developers: 1
+    * Duration: y weeks
+    * Price: x USD * y = z USD
 
 #### Milestone 2.
 
@@ -104,12 +106,23 @@ The milestones include (x) phases,
     * Duration: y weeks
     * Price: x USD * y = z USD
 
-Except from the milestones above, the server fee and maintanance tasks for the current CryptoLab and Telegram Bots for validators. The server fee includes EC2 instances, DB and Redis instances, to run CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
+### Milestone 3.
+ 
+* Apply the redeigned UI/UX to existing features
+    * Developers: 1
+    * Duration: y weeks
+    * Price: x USD * y = z USD
+    
+Except from the milestones above, server fee is another necessary expense for us to operate CryptoLab. 
+
+The server fee includes EC2 instances, DB and Redis instances, to run CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
 
 *We can provide the detailed estimation from AWS calculator if the commitee need it*
 
 * Duration: 6 months
 * Price: 1000 USD/month
+
+
 
 ### Include any extra links completing the proposal here
 
@@ -118,6 +131,7 @@ Except from the milestones above, the server fee and maintanance tasks for the c
 ## If you have seen similar proposals before: why is yours different?
 
 https://kusama.polkassembly.io/treasury/82
+
 https://kusama.polkassembly.io/treasury/90
 
 ## Payment conditions
