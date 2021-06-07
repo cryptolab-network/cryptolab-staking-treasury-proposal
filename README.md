@@ -15,6 +15,15 @@ CryptoLab website 是圍繞於財務管理的視角來設計，從基本的用�
 最後，Decentralization絕對是Kusama生態系一個至關重要的議題。我們相信 CryptoLab Website 可以協助 Nominators 獲得穩定收益的同時兼顧Decentralization，打破現在 validator 過度集中的現象。
 
 ## Context of the proposal: 
+
+CryptoLab最初是以作為 validator 來切入 Kusama 生態系，過程中我們一邊驚訝於進入門檻太高，ㄧ邊苦於幾乎沒有金融相關工具可使用。舉例來說，作為一個 validator 而言，投入前必須事先評估未來金流的長相，才能營運降低風險，然而卻找不到相關工具及資訊。不僅如此，對於 Nominator 而言，市面上的APY評估工具，僅僅是先確定好公式及參數的靜態工具，幾乎沒有參考價值。我們注意到另一個更嚴重的問題是 validator 過度集中化，非機構 validator 幾乎沒辦法取得足夠的提名，進入active set。這是一個幾乎無解的現況，因為無法進入active set就吸引不到提名，吸引不到提名就進不了active set。
+
+因此，我們利用空閑時間開始替自己打造相關工具，並分享給社群使用，如：Validator/Nominator Status、Staking Rewards、1kv validator monitor，可以更容易地評估staking收益與提名狀況。我們也推出 staking tool，其特色是簡單操作的提名流程，並包含隨機的1kv validator節點，期待減緩集中化的問題。身為 validator 營運者，我們必須時時注意提名狀況來調整commission，因此推出 telegram bot 即時收到提名事件，這大幅將低validator的工作量。 在這期間，我們總共取得三個 tips(感謝 Raul 的推薦)，也收到多個社群夥伴的鼓勵與回饋，非常開心。基於上述的經驗與鼓舞，我們有信心可以做出更好用的服務，是時候向前跨出一大步了。
+
+(介紹團隊)
+
+(社群鼓勵與回饋)
+
 we aim to have as much context as possible to understand how a proposal came to the proponent's mind, Please include here:
 
  * any points discussed in advance in any channel related to the proposal and background research for your project. 
