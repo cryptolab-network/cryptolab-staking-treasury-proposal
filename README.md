@@ -8,7 +8,7 @@ CryptoLab
 
 ## Short description:
 
-The CryptoLab aims to help non-technical nominators build stable and risk-controlled cash flows via well-designed and financial tools. The core idea is that staking behavior is the same as investment behavior. Therefore nominators must first build good portfolios and then manage their portfolios to control risk and profit. Portfolio management is a challenging task, especially in the complicated Kusama system using NPoS consensus. Via the CryptoLab, the nominators can better understand their investment performance and adjust their portfolios to gain stable profit. We believe this is a vital way to expand the Kusama community and to make the network stable.
+The CryptoLab aims to help non-technical nominators build stable and risk-controlled cash flows via well-designed and financial tools. The core idea is that staking behavior is the same as investment behavior. Therefore nominators must first build good portfolios and then manage their portfolios to control risk and profit. Portfolio management is a challenging task, especially in the complicated Kusama system using NPoS consensus. Via the CryptoLab, the nominators can better understand their investment performance and adjust their portfolios to gain stable profit. We believe this is a vital way to expand the Kusama community and to increase network stability.
 
 ## Context of the proposal: 
 we aim to have as much context as possible to understand how a proposal came to the proponent's mind, Please include here:
