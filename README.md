@@ -31,7 +31,10 @@ We believe that it is time for us to make a big step, to provide a total solutio
 
 ### The Team
 
-* Yao-hsin Chen
+團隊完整性直接影響一個專案的品質，我們相當清楚目前 CryptoLab website 的不足之處，因此為了提供更好的使用者體驗與服務，我們從一開始的兩人團隊擴充為四人，增加一名UI/UX Designer (Kin Lau)與一名fullstack資深工程師 (Jack)。團隊成員都有豐富的研發經驗，且都了解區塊鏈領域，這讓我們有十足的信心完成此專案。
+
+(以下大家寫一些區塊鏈、技術相關經驗、作品也行)
+* Yao-hsin Chen 從2016年就開始研究區塊鏈技術，是Taipei Ethereum Meetup Organizer之一，並於2018年共同創辦SOLA Technology公司，並擔任CEO至2020年底，致力於將區塊鏈技術推廣至新能源領域。從2021年開始專心投入營運Polkadot/Kusama validator，並籌組 CryptoLab 團隊。
 * Yu-kai Tseng
 * Kin
 * Jack
