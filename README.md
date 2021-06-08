@@ -33,14 +33,33 @@ We believe that it is time for us to make a big step, to provide a total solutio
 
 團隊完整性直接影響一個專案的品質，我們相當清楚目前 CryptoLab website 的不足之處，因此為了提供更好的使用者體驗與服務，我們從一開始的兩人團隊擴充為四人，增加一名UI/UX Designer (Kin Lau)與一名fullstack資深工程師 (Jack)。團隊成員都有豐富的研發經驗，且都了解區塊鏈領域，這讓我們有十足的信心完成此專案。
 
-(以下大家寫一些區塊鏈、技術相關經驗、作品也行)
-* Yao-hsin Chen 從2016年就開始研究區塊鏈技術，是Taipei Ethereum Meetup Organizer之一，並於2018年共同創辦SOLA Technology公司，並擔任CEO至2020年底，致力於將區塊鏈技術推廣至新能源領域。從2021年開始專心投入營運Polkadot/Kusama validator，並籌組 CryptoLab 團隊。
+(以下大家寫一些區塊鏈、技術相關經驗、作品也很好)
+* Yao-hsin Chen 從2016年就開始研究區塊鏈技術，是Taipei Ethereum Meetup Organizer之一。於2018年共同創辦SOLA Technology公司，並擔任CEO至2020年底，致力於將區塊鏈技術推廣至新能源領域。從2021年開始專心投入營運Polkadot/Kusama validator，並籌組 CryptoLab 團隊。
 * Yu-kai Tseng
 * Kin
 * Jack
 
+### 使用者數據分析
 
-(社群鼓勵與回饋)
+CryptoLab上線日期為2021/3/13，目前只有在官方element上宣傳，累積使用人數為629人，平均停留時間為3分鐘，使用者來自United States, China, Italy, Germany, Taiwan, Spain, United Kingdom等地區。最近一個月的使用者人數為212人，其中新使用者人數為178人，回訪人數有76人。每日訪問人數介於8~38人次。有59.7%透過桌面版瀏覽器訪問，而行動裝置佔比則為40.3%。以上數據顯示CryptoLab取得不錯的回訪率成績42.6%，這表示接近一半的使用者覺得CryptoLab為他們提供了價值。另外明顯可以改善的地方為支援RWD顯示，因為有4成的使用者是透過行動裝置來瀏覽。以下為Google Analytics截圖。
+
+<img src="https://user-images.githubusercontent.com/3665658/121117953-930ae800-c84b-11eb-87aa-8d5ce83463f2.png" width="350">
+<img src="https://user-images.githubusercontent.com/3665658/121118013-b03fb680-c84b-11eb-9d17-6fe10066ee5a.png" width="350">
+<img src="https://user-images.githubusercontent.com/3665658/121118081-d2393900-c84b-11eb-8c74-1848a049493c.png" width="350">
+<img src="https://user-images.githubusercontent.com/3665658/121118168-f9900600-c84b-11eb-9cde-01d371df5fcc.png" width="350">
+
+我們分別於2021/4/6及2021/5/22推出 Telegram Kusama Bot及 Polkadot Bot 來協助validator取得即時提名訊息及節點運行狀況，目前Kusama Bot使用者人數為48人，總共監控104個validator與38個telemetry狀態。Polkadot Bot使用者人數為14人，總共監控25個validator與9個telemetry狀態。此成績算是差強人意，但是根據我們收到的回饋，可以肯定此服務的確讓 validator 更了解節點維運狀況。
+
+### 社群鼓勵及回饋
+
+我們非常感謝社群同伴的鼓勵及回饋，讓 CryptoLab 更加茁壯。以下節錄一些私人的反饋，因為這些對我們而言更加有價值。
+
+![image](https://user-images.githubusercontent.com/3665658/121129877-2b12cc80-c860-11eb-97a1-69f96d332d78.png)
+![image](https://user-images.githubusercontent.com/3665658/121129904-3534cb00-c860-11eb-86e0-b4a80f154418.png)
+![image](https://user-images.githubusercontent.com/3665658/121129949-4251ba00-c860-11eb-9237-31c09d0f5ac2.png)
+![image](https://user-images.githubusercontent.com/3665658/121129991-53023000-c860-11eb-8275-5f1c7c34c446.png)
+![image](https://user-images.githubusercontent.com/3665658/121130010-5b5a6b00-c860-11eb-9241-2658e7ed2296.png)
+![image](https://user-images.githubusercontent.com/3665658/121130062-6c0ae100-c860-11eb-94d2-8c1a73533465.png)
 
 
 ## Problem statement: 
@@ -72,7 +91,7 @@ There are four top-tier goals included in this propsal.
 
 The first two goals are focused on making what we have done better. We plan to enhance the current CryptoLab by
 
-* Re-design the UI/UX of CryptoLab
+* Re-design the UI/UX of CryptoLab (加入RWD)
 * Move the service to AWS to improve the performance
 * Maintain our Polkadot/Kusama archived node
 
