@@ -35,7 +35,7 @@ We believe that it is time for us to make a big step, to provide a total solutio
 
 (以下大家寫一些區塊鏈、技術相關經驗、作品也很好)
 * Yao-hsin Chen 從2016年就開始研究區塊鏈技術，是Taipei Ethereum Meetup Organizer之一。於2018年共同創辦SOLA Technology公司，並擔任CEO至2020年底，致力於將區塊鏈技術推廣至新能源領域。從2021年開始專心投入營運Polkadot/Kusama validator，並籌組 CryptoLab 團隊。
-* Yu-kai Tseng
+* Yu-kai Tseng, who has 9-year experience on developing Industrial Ethernet Network Management System, is now freelancer. He is expert in distributed network service design and development and began to work on the first version of CryptoLab in 2021.
 * Kin
 * Jack
 
