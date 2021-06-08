@@ -45,13 +45,6 @@ We believe that it is time for us to make a big step, to provide a total solutio
 
 CryptoLab was online at 3/13/2021, we advertised the website mostly on public Element channels. From the reports of Google Analytics, until today, there were more than 600 new and returning users from varied countries. There were about 200 users in recent 4 weeks, about 1/3 of them were returning users. In average 10-20 users each day. Desktop and mobile user ratio is approximately 1:1. We think it is good because more than 30% of people returned to the website. 
 
-CryptoLab上線日期為2021/3/13，目前只有在官方element上宣傳，累積使用人數為629人，平均停留時間為3分鐘，使用者來自United States, China, Italy, Germany, Taiwan, Spain, United Kingdom等地區。最近一個月的使用者人數為212人，其中新使用者人數為178人，回訪人數有76人。每日訪問人數介於8~38人次。有59.7%透過桌面版瀏覽器訪問，而行動裝置佔比則為40.3%。以上數據顯示CryptoLab取得不錯的回訪率成績35.8%，這表示接近一半的使用者覺得CryptoLab為他們提供了價值。另外明顯可以改善的地方為支援RWD顯示，因為有4成的使用者是透過行動裝置來瀏覽。以下為Google Analytics截圖。
-
-<img src="https://user-images.githubusercontent.com/3665658/121117953-930ae800-c84b-11eb-87aa-8d5ce83463f2.png" width="350">
-<img src="https://user-images.githubusercontent.com/3665658/121118013-b03fb680-c84b-11eb-9d17-6fe10066ee5a.png" width="350">
-<img src="https://user-images.githubusercontent.com/3665658/121118081-d2393900-c84b-11eb-8c74-1848a049493c.png" width="350">
-<img src="https://user-images.githubusercontent.com/3665658/121118168-f9900600-c84b-11eb-9cde-01d371df5fcc.png" width="350">
-
 We also released the Kusama and Polkadot bots for validators several weeks later to help them to be notified about nomination and whether their node were online. There are about 50 Kusama Bot users and more than 10 Polkadot Bot users. We actually received positive feedbacks from both website and bot users.
 
 ### Feedbacks from the Community
@@ -95,6 +88,13 @@ Ignore 3., we saw there are no complete *Portfolio Management* solutions for Pol
 ## Proposal Objective/solution/s to point 2:
 
 (加一段說明 total solution 投前 投後)
+我們將完整的Staking解決方案分成兩大部分，首先 Portfolio Benchmark 解決 validators 難以評估的問題，讓 Nominator 能夠順利完成提名。接著是 Portfolio Management，幫助 Nominator 持續追蹤validator表現狀況，並提供主動式通知的功能，以便隨時調整提名。後續將以我們重新設計的介面，逐一介紹目前規劃的每一個功能。
+
+### Portfolio Benchmark
+
+### Portfolio Management
+
+
 
 We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is time to polish the site and to work on providing a total solution on staking.
 
