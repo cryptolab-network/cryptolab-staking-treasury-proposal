@@ -10,16 +10,18 @@ CryptoLab
 
 The CryptoLab (https://www.cryptolab.network/tools) aims to help non-technical nominators build stable and risk-controlled cash flows via well-designed and financial tools. The core idea is that we want to make staking the same as investment. We help nominators to build good portfolios and to manage their portfolios to control risk and revenue. Portfolio management is challenging in Polkadot/Kusama system because they are NPoS consensus.
 
-We design the CryptoLab website to help users to do their crypto currency financial management. From basic wordings to data representation, we would like to make "normal" people comprehensive. (對於那些族群comprehensive?) In the first stage, We plan to provide the following features,
+We design the CryptoLab website to help users to do their crypto currency financial management. From basic wordings to data representation, our goal is to we make staking comprehensive to "normal" people. We plan to provide the following features in this stage,
 
 * Portfolio Benchmark
 * Portfolio Management
 
 Portfolio Benchmark helps nominators to evaluate which validators should they stake on. They can simply choose and nominate from our pre-built strategies or set their own conditions on different criteria to get a list of validators. And it is just the first step.
 
-The real difference that makes CryptoLab outstanding is the Portfolio Management. We would like to help nominators to track their revenue and to suggest new sets of validators accoring to the criteria they set. We also would like to help nominators to make adjustment in time to prevent from lose their profit, by notify them such as when a validator increased commission or when a validator is slashed.
+The real difference that makes CryptoLab outstanding is the Portfolio Management. We would like to help nominators to track their revenue and to suggest new sets of validators according to the criteria they set. We also would like to help nominators to make adjustment in time to prevent from profit loss, by notifying them when a validator increased its commission or when a validator is being slashed.
 
-Decentralization is the key to make long term Polkadot/Kusama ecosystem healthy. Our topmost goal is to help nominators to get stable income while keep the system dencentralized.
+(我覺得這邊有點跳, 怎麼突然扯到decentralization)
+
+Decentralization is the key to make long term Polkadot/Kusama ecosystem healthy. Our utmost goal is to help nominators to get stable income while keep the system dencentralized.
 
 ## Context of the proposal: 
 
@@ -39,7 +41,9 @@ We believe that it is time for us to make a big step, to provide a total solutio
 * Kin
 * Jack
 
-### 使用者數據分析
+### Current usage analysis of CryptoLab
+
+CryptoLab was online at 3/13/2021, we advertised the website mostly on public Element channels. From the reports of Google Analytics, until today, there were 629 users from varied countries. There were about 200 users in recent 4 weeks, 76 of them were returning users. In average 10-20 users each day. Desktop and mobile user ratio is approximately 1:1. We think it is good because more than 30% of people returned to the website. 
 
 CryptoLab上線日期為2021/3/13，目前只有在官方element上宣傳，累積使用人數為629人，平均停留時間為3分鐘，使用者來自United States, China, Italy, Germany, Taiwan, Spain, United Kingdom等地區。最近一個月的使用者人數為212人，其中新使用者人數為178人，回訪人數有76人。每日訪問人數介於8~38人次。有59.7%透過桌面版瀏覽器訪問，而行動裝置佔比則為40.3%。以上數據顯示CryptoLab取得不錯的回訪率成績35.8%，這表示接近一半的使用者覺得CryptoLab為他們提供了價值。另外明顯可以改善的地方為支援RWD顯示，因為有4成的使用者是透過行動裝置來瀏覽。以下為Google Analytics截圖。
 
@@ -48,11 +52,11 @@ CryptoLab上線日期為2021/3/13，目前只有在官方element上宣傳，累�
 <img src="https://user-images.githubusercontent.com/3665658/121118081-d2393900-c84b-11eb-8c74-1848a049493c.png" width="350">
 <img src="https://user-images.githubusercontent.com/3665658/121118168-f9900600-c84b-11eb-9cde-01d371df5fcc.png" width="350">
 
-我們分別於2021/4/6及2021/5/22推出 Telegram Kusama Bot及 Polkadot Bot 來協助validator取得即時提名訊息及節點運行狀況，目前Kusama Bot使用者人數為48人，總共監控104個validator與38個telemetry狀態。Polkadot Bot使用者人數為14人，總共監控25個validator與9個telemetry狀態。此成績算是差強人意，但是根據我們收到的回饋，可以肯定此服務的確讓 validator 更了解節點維運狀況。
+We also released the Kusama and Polkadot bots for validator to help them to be notified about nomination and whether their validators were online. There are 48 Kusama Bot users and 14 Polkadot Bot users. We actually received positive feedbacks from both website and bot users.
 
-### 社群鼓勵及回饋
+### Feedbacks from the Community
 
-我們非常感謝社群同伴的鼓勵及回饋，讓 CryptoLab 更加茁壯。以下節錄一些私人的反饋，因為這些對我們而言更加有價值。
+We appreciate the feedbacks from the community, which encouraged us to make it better. These are some examples,
 
 ![image](https://user-images.githubusercontent.com/3665658/121129877-2b12cc80-c860-11eb-97a1-69f96d332d78.png)
 ![image](https://user-images.githubusercontent.com/3665658/121129904-3534cb00-c860-11eb-86e0-b4a80f154418.png)
