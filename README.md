@@ -10,7 +10,7 @@ CryptoLab
 
 The CryptoLab (https://www.cryptolab.network/tools) aims to help non-technical nominators build stable and risk-controlled cash flows via well-designed and financial tools. The core idea is that we want to make staking the same as investment. We help nominators to build good portfolios and to manage their portfolios to control risk and revenue. Portfolio management is challenging in Polkadot/Kusama system because they are NPoS consensus.
 
-We design the CryptoLab website to help users to do their crypto currency financial management. From basic wordings to data representation, our goal is to we make staking comprehensive to "normal" people. We plan to provide the following features in this stage,
+We design the CryptoLab website to help users to do their crypto currency financial management. From basic wordings to data representation, our goal is to we make staking comprehensive to people who may not yet familiar with blockchain. We plan to provide the following features in this stage,
 
 * Portfolio Benchmark
 * Portfolio Management
@@ -43,7 +43,7 @@ We believe that it is time for us to make a big step, to provide a total solutio
 
 ### Current usage analysis of CryptoLab
 
-CryptoLab was online at 3/13/2021, we advertised the website mostly on public Element channels. From the reports of Google Analytics, until today, there were 629 users from varied countries. There were about 200 users in recent 4 weeks, 76 of them were returning users. In average 10-20 users each day. Desktop and mobile user ratio is approximately 1:1. We think it is good because more than 30% of people returned to the website. 
+CryptoLab was online at 3/13/2021, we advertised the website mostly on public Element channels. From the reports of Google Analytics, until today, there were more than 600 new and returning users from varied countries. There were about 200 users in recent 4 weeks, about 1/3 of them were returning users. In average 10-20 users each day. Desktop and mobile user ratio is approximately 1:1. We think it is good because more than 30% of people returned to the website. 
 
 CryptoLab上線日期為2021/3/13，目前只有在官方element上宣傳，累積使用人數為629人，平均停留時間為3分鐘，使用者來自United States, China, Italy, Germany, Taiwan, Spain, United Kingdom等地區。最近一個月的使用者人數為212人，其中新使用者人數為178人，回訪人數有76人。每日訪問人數介於8~38人次。有59.7%透過桌面版瀏覽器訪問，而行動裝置佔比則為40.3%。以上數據顯示CryptoLab取得不錯的回訪率成績35.8%，這表示接近一半的使用者覺得CryptoLab為他們提供了價值。另外明顯可以改善的地方為支援RWD顯示，因為有4成的使用者是透過行動裝置來瀏覽。以下為Google Analytics截圖。
 
@@ -86,7 +86,11 @@ The goal of Yieldscan is just as their slogan "built to maximize staking yield a
 
 Polkastats is another similar project, it is a validator resource center. The site uses VRC score, which is calculated from varieties of parameters. They help nominators by providing a dashboard of validators, displaying info such as commission, self stake, etc. so that nominators have a baseline to compare each other. Polkastats also has a nomination system, which focused on the decentralization of the network. It has a unique feature that nominators can import their validator sets to customize the next sets of validators. It support Kusama.
 
-However, no complete *Portfolio Management* tools for Polkadot/Kusama nominators to track their revenue from staking and validator status after nonimation. In our view, staking is not an one-time operation, it should be constantly monitored and adjusted to ensure profit. We saw no such solution is on the market now.
+3. Staking tools in centralized exchanges / Auto staking service blockchains (e.g. https://stake.fish/en/)
+
+Simple staking tools are offered by centralized exchanges, they are designed to make staking procedure as simple as a nominate button. There should be an auto staking management system behind these exchanges. The cons of using it are, first, the APY is worse because of service fee and second, it hurts decentralization. The pros and cons are similar when it comes to those blockchains which offers auto staking services.
+
+Ignore 3., we saw there are no complete *Portfolio Management* solutions for Polkadot/Kusama nominators to track their revenue from staking and validator status after nonimation. In our view, staking is not an one-time operation, it should be constantly monitored and adjusted to ensure profit. We saw no such solution is on the market now.
 
 ## Proposal Objective/solution/s to point 2:
 
