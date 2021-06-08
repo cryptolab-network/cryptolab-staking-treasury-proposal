@@ -107,7 +107,7 @@ There are four top-tier goals included in this propsal.
 
 The first two goals are focused on making what we have done better. We plan to enhance the current CryptoLab by
 
-* Re-design the UI/UX of CryptoLab (加入RWD)
+* Re-design the UI/UX of CryptoLab, including RWD
 * Move the service to AWS to improve the performance
 * Maintain our Polkadot/Kusama archived node
 
@@ -130,6 +130,13 @@ For the Telegram Bots for nominators, we plan to provide the followings,
 * Regular revenue reports
 
 so that nominators are able to make adjustment in time.
+
+### Webpages in plan
+
+* Portfolio Benchmark
+
+![image](https://user-images.githubusercontent.com/5772463/121184696-ed319a80-c897-11eb-93e3-3285c705f6fa.png)
+
 
 ### How does this proposal change the current logic in Kusama?
 
