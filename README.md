@@ -71,12 +71,15 @@ From our observation, nominators tends to
 * nominate in centralized exchanges, which hurts decentralization.
 * nominate top validators on the Target page on Polkadot App, which still hurt decentralization because by doing it, funds tend to be delegated to those already have enough backups.
 
-There are developers from the community trying to resolve the problem by providing validator ranking system and simple staking tools.
+There are developers from the community trying to resolve the problem by providing validator ranking system and simple (改成 user friendly?) staking tools.
 
 1. yieldscan (補充yieldscan在做什麼)
-2. polkastats (補充polkastats做了什麼)
+他的目標就如同 slogan 一樣， built to maximize staking yield and designed to minimize effort，以幫助 nominator 最大化staking為主要目標。其主要的特色是提出一個 risk level 的公式，計算每個 validator 的risk值，並歸類成 Low、Medium、High三大類。Nominator可以簡單輸入 amount, risk level, time peroid之後，系統會自動選取前16個滿足條件的validator，估算其年化報酬率(APY)，並讓使用者可以完成提名。另外也整理Validators、Nominators、Governance的基本資料以供查詢。Yieldscan支援 Polkadot/Kusama network.
 
-However, no *Portfolio Management* tools for Polkadot/Kusama nominators to track their staking revenue and validator status after nonimation.
+2. polkastats (補充polkastats做了什麼)
+Polkastats - Validator Resource Center，提出VRC score，考慮更多參數，並提供nominator客製化參數的功能。感覺上他們更重視 decentralization 程度，。主頁首先是統計全網資訊如 Average commission、 average self stake、average performance等等，讓nominator有個比較validator優劣的基準。Ranking頁面上方建議使用者提名 Featured waiting validator，讓使用者不僅僅考慮APY而已，也對網路去中心化做出貢獻。另外值得一提的是他們準備提供 Import 功能，讓已經提名的nominator匯入現有的validator set，然後再來進行調整。
+
+However, no complete *Portfolio Management* tools for Polkadot/Kusama nominators to track their staking revenue and validator status after nonimation. 整個 staking 過程不是一次性的動作，而是一種需要不斷調整的流程，才能達到預期目標。現階段市面上並不存在完整Solution。
 
 ## Proposal Objective/solution/s to point 2:
 
