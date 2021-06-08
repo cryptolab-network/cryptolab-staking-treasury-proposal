@@ -52,11 +52,11 @@ CryptoLab上線日期為2021/3/13，目前只有在官方element上宣傳，累�
 <img src="https://user-images.githubusercontent.com/3665658/121118081-d2393900-c84b-11eb-8c74-1848a049493c.png" width="350">
 <img src="https://user-images.githubusercontent.com/3665658/121118168-f9900600-c84b-11eb-9cde-01d371df5fcc.png" width="350">
 
-We also released the Kusama and Polkadot bots for validator to help them to be notified about nomination and whether their validators were online. There are 48 Kusama Bot users and 14 Polkadot Bot users. We actually received positive feedbacks from both website and bot users.
+We also released the Kusama and Polkadot bots for validators several weeks later to help them to be notified about nomination and whether their node were online. There are about 50 Kusama Bot users and more than 10 Polkadot Bot users. We actually received positive feedbacks from both website and bot users.
 
 ### Feedbacks from the Community
 
-We appreciate the feedbacks from the community, which encouraged us to make it better. These are some examples,
+We appreciate the feedbacks from the community, which encouraged us to make it better.
 
 ![image](https://user-images.githubusercontent.com/3665658/121129877-2b12cc80-c860-11eb-97a1-69f96d332d78.png)
 ![image](https://user-images.githubusercontent.com/3665658/121129904-3534cb00-c860-11eb-86e0-b4a80f154418.png)
@@ -77,13 +77,16 @@ From our observation, nominators tends to
 
 There are developers from the community trying to resolve the problem by providing validator ranking system and simple (改成 user friendly?) staking tools.
 
-1. yieldscan (補充yieldscan在做什麼)
-他的目標就如同 slogan 一樣， built to maximize staking yield and designed to minimize effort，以幫助 nominator 最大化staking為主要目標。其主要的特色是提出一個 risk level 的公式，計算每個 validator 的risk值，並歸類成 Low、Medium、High三大類。Nominator可以簡單輸入 amount, risk level, time peroid之後，系統會自動選取前16個滿足條件的validator，估算其年化報酬率(APY)，並讓使用者可以完成提名。另外也整理Validators、Nominators、Governance的基本資料以供查詢。Yieldscan支援 Polkadot/Kusama network.
+1. Yieldscan (https://yieldscan.app/)
 
-2. polkastats (補充polkastats做了什麼)
-Polkastats - Validator Resource Center，提出VRC score，考慮更多參數，並提供nominator客製化參數的功能。感覺上他們更重視 decentralization 程度，。主頁首先是統計全網資訊如 Average commission、 average self stake、average performance等等，讓nominator有個比較validator優劣的基準。Ranking頁面上方建議使用者提名 Featured waiting validator，讓使用者不僅僅考慮APY而已，也對網路去中心化做出貢獻。另外值得一提的是他們準備提供 Import 功能，讓已經提名的nominator匯入現有的validator set，然後再來進行調整。
+The goal of Yieldscan is just as their slogan "built to maximize staking yield and designed to minimize effort". It helps nominators to maximize their profit from staking. They used a risk level system, in which users can simply input staking amount, risk level, and duration. The system chooses 16 validators which fulfill the conditions users set, estimates the APY and help users to nominate them. Yieldscan also has dashboards of both validators and nominators. It supports both Polkadot and Kusama.
 
-However, no complete *Portfolio Management* tools for Polkadot/Kusama nominators to track their staking revenue and validator status after nonimation. 整個 staking 過程不是一次性的動作，而是一種需要不斷調整的流程，才能達到預期目標。現階段市面上並不存在完整Solution。
+
+2. polkastats (https://validatorsv2.kusama.polkastats.io/)
+
+Polkastats is another similar project, it is a validator resource center. The site uses VRC score, which is calculated from varieties of parameters. They help nominators by providing a dashboard of validators, displaying info such as commission, self stake, etc. so that nominators have a baseline to compare each other. Polkastats also has a nomination system, which focused on the decentralization of the network. It has a unique feature that nominators can import their validator sets to customize the next sets of validators. It support Kusama.
+
+However, no complete *Portfolio Management* tools for Polkadot/Kusama nominators to track their revenue from staking and validator status after nonimation. In our view, staking is not an one-time operation, it should be constantly monitored and adjusted to ensure profit. We saw no such solution is on the market now.
 
 ## Proposal Objective/solution/s to point 2:
 
