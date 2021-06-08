@@ -10,7 +10,7 @@ CryptoLab
 
 The CryptoLab (https://www.cryptolab.network/tools) aims to help non-technical nominators build stable and risk-controlled cash flows via well-designed and financial tools. The core idea is that we want to make staking the same as investment. We help nominators to build good portfolios and to manage their portfolios to control risk and revenue. Portfolio management is challenging in Polkadot/Kusama system because they are NPoS consensus.
 
-We design the CryptoLab website to help users to do their crypto currency financial management. From basic wordings to data representation, we would like to make them comprehensive. (對於那些族群comprehensive?) In the first stage, We plan to provide the following features,
+We design the CryptoLab website to help users to do their crypto currency financial management. From basic wordings to data representation, we would like to make "normal" people comprehensive. (對於那些族群comprehensive?) In the first stage, We plan to provide the following features,
 
 * Portfolio Benchmark
 * Portfolio Management
@@ -20,10 +20,6 @@ Portfolio Benchmark helps nominators to evaluate which validators should they st
 The real difference that makes CryptoLab outstanding is the Portfolio Management. We would like to help nominators to track their revenue and to suggest new sets of validators accoring to the criteria they set. We also would like to help nominators to make adjustment in time to prevent from lose their profit, by notify them such as when a validator increased commission or when a validator is slashed.
 
 Decentralization is the key to make long term Polkadot/Kusama ecosystem healthy. Our topmost goal is to help nominators to get stable income while keep the system dencentralized.
-
-是圍繞於財務管理的視角來設計，從基本的用詞簡字，到數據呈現皆力求平易近人，簡單明暸。我們提供三個主要的服務：1. Portfolio Benchmark, 2. Portfolio Management, 3. Nofitication Bot. 首先，Portfolio Benchmark 是一種validator評估工具，Nominators可以使用預先建制的幾種選擇策略，如：High APY, Low Risk, 1KV, Decentrailization, etc.,來建立Portfolio. 然而這僅僅是踏出第一步而已，更重要的是持續調整 Portfolio的能力。 所以我們提出市場上少見的 Protfolio Management 讓使用者得以快速且精確的了解現金流狀況，再搭配 Notification Bot 事件通知功能，即時掌握驗證者狀況，並作出調整，以降低風險。
-
-最後，Decentralization絕對是Kusama生態系一個至關重要的議題。我們相信 CryptoLab Website 可以協助 Nominators 獲得穩定收益的同時兼顧Decentralization，打破現在 validator 過度集中的現象。
 
 ## Context of the proposal: 
 
@@ -40,13 +36,6 @@ We believe that it is time for us to make a big step, to provide a total solutio
 * Kin
 * Jack
 
-(社群鼓勵給你補圖)
-
-CryptoLab最初是以作為 validator 來切入 Kusama 生態系，過程中我們一邊驚訝於進入門檻太高，ㄧ邊苦於幾乎沒有金融相關工具可使用。舉例來說，作為一個 validator 而言，投入前必須事先評估未來金流的長相，才能營運降低風險，然而卻找不到相關工具及資訊。不僅如此，對於 Nominator 而言，市面上的APY評估工具，僅僅是先確定好公式及參數的靜態工具，幾乎沒有參考價值，而 Polkadot Portal App又太過於複雜，不容易使用。我們注意到另一個更嚴重的問題是 validator 過度集中化，非機構 validator 幾乎沒辦法取得足夠的提名，進入active set。這是一個幾乎無解的現況，因為無法進入active set就吸引不到提名，吸引不到提名就進不了active set。
-
-因此，我們利用空閑時間開始替自己打造相關工具，並分享給社群使用，如：Validator/Nominator Status、Staking Rewards、1kv validator monitor，可以更容易地評估staking收益與提名狀況。我們也推出 staking tool，其特色是簡單操作的提名流程，並包含隨機的1kv validator節點，期待減緩集中化的問題。身為 validator 營運者，我們必須時時注意提名狀況來調整commission，因此推出 telegram bot 即時收到提名事件，這大幅將低validator的工作量。 在這期間，我們總共取得三個 tips(感謝 Raul 的推薦)，也收到多個社群夥伴的鼓勵與回饋，非常開心。基於上述的經驗與鼓舞，我們有信心可以做出更好用的服務，是時候向前跨出一大步了。
-
-(介紹團隊)
 
 (社群鼓勵與回饋)
 
