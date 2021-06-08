@@ -41,7 +41,7 @@ We believe that it is time for us to make a big step, to provide a total solutio
 
 ### 使用者數據分析
 
-CryptoLab上線日期為2021/3/13，目前只有在官方element上宣傳，累積使用人數為629人，平均停留時間為3分鐘，使用者來自United States, China, Italy, Germany, Taiwan, Spain, United Kingdom等地區。最近一個月的使用者人數為212人，其中新使用者人數為178人，回訪人數有76人。每日訪問人數介於8~38人次。有59.7%透過桌面版瀏覽器訪問，而行動裝置佔比則為40.3%。以上數據顯示CryptoLab取得不錯的回訪率成績42.6%，這表示接近一半的使用者覺得CryptoLab為他們提供了價值。另外明顯可以改善的地方為支援RWD顯示，因為有4成的使用者是透過行動裝置來瀏覽。以下為Google Analytics截圖。
+CryptoLab上線日期為2021/3/13，目前只有在官方element上宣傳，累積使用人數為629人，平均停留時間為3分鐘，使用者來自United States, China, Italy, Germany, Taiwan, Spain, United Kingdom等地區。最近一個月的使用者人數為212人，其中新使用者人數為178人，回訪人數有76人。每日訪問人數介於8~38人次。有59.7%透過桌面版瀏覽器訪問，而行動裝置佔比則為40.3%。以上數據顯示CryptoLab取得不錯的回訪率成績35.8%，這表示接近一半的使用者覺得CryptoLab為他們提供了價值。另外明顯可以改善的地方為支援RWD顯示，因為有4成的使用者是透過行動裝置來瀏覽。以下為Google Analytics截圖。
 
 <img src="https://user-images.githubusercontent.com/3665658/121117953-930ae800-c84b-11eb-87aa-8d5ce83463f2.png" width="350">
 <img src="https://user-images.githubusercontent.com/3665658/121118013-b03fb680-c84b-11eb-9d17-6fe10066ee5a.png" width="350">
