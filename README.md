@@ -83,6 +83,8 @@ However, no complete *Portfolio Management* tools for Polkadot/Kusama nominators
 
 ## Proposal Objective/solution/s to point 2:
 
+(加一段說明 total solution 投前 投後)
+
 We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is time to polish the site and to work on providing a total solution on staking.
 
 There are four top-tier goals included in this propsal.
