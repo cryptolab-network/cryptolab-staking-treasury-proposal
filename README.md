@@ -146,36 +146,26 @@ The milestones include (x) phases,
 
 #### Milestone 1.
 
-* Re-design the UI/UX of CryptoLab
-    * Designer: 1, Developers: 1
-    * Duration: y weeks
-    * Price: x USD * y = z USD
-* Implement CryptoLab Portfolio Benchmark
-    * Developers: 3
-    * Duration: y weeks
-    * Price: x USD * y = z USD
-* Implement CryptoLab Portfolio Management
-    * Developers: 3
-    * Duration: y weeks
-    * Price: x USD * y = z USD
-* Implement CryptoLab Staking Guide
-    * Developers: 1
-    * Duration: y weeks
-    * Price: x USD * y = z USD
+| Description | Man-power | Duration | Price | Deliverables |
+| ----------- | --------- | -------- | ----- | ------------ |
+| Re-design the UI/UX of CryptoLab     | Designer: 1 | x weeks | z USD | xxxxx |
+| Implement CryptoLab Portfolio Benchmark | Developers: 3 | x weeks | z USD | xxxxx |
+| Implement CryptoLab Portfolio Management | Developers: 3 | x weeks | z USD | xxxxx |
+| Implement CryptoLab Staking Guide | Developers: 1 | x weeks | z USD | xxxxx |
+
 
 #### Milestone 2.
 
-* Telegram Bots for nominators
-    * Developers: 1
-    * Duration: y weeks
-    * Price: x USD * y = z USD
+| Description | Man-power | Duration | Price | Deliverables |
+| ----------- | --------- | -------- | ----- | ------------ |
+| Telegram Bots for nominators     | Developer: 1 | x weeks | z USD | xxxxx |
+
 
 ### Milestone 3.
  
-* Apply the redeigned UI/UX to existing features
-    * Developers: 1
-    * Duration: y weeks
-    * Price: x USD * y = z USD
+| Description | Man-power | Duration | Price | Deliverables |
+| ----------- | --------- | -------- | ----- | ------------ |
+| Apply the redeigned UI/UX to existing features     | Developer: 1 | x weeks | z USD | xxxxx |
     
 Except from the milestones above, the server fee is another necessary expense for us to operate CryptoLab. 
 
@@ -183,12 +173,13 @@ The server fee includes EC2 instances, DB and Redis instances, to run CryptoLab 
 
 *We can provide the detailed estimation from AWS calculator if the commitee needs it*
 
-The operation costs later than 6 months would be applied in future proposals if this one is being pproved.
-
-* Duration: 6 months
-* Price: 1000 USD/month
+The operation costs later than 6 months would be applied in future proposals if this one is being approved.
 
 
+| Description | Duration | Price | Total | 
+| ----------- | --------- | -------- | ----- |
+| Server fee for CryptoLab     | 6 months | 250 USD | 1500 USD |
+| Server fee for runnig Polkadot/Kusama Nodes | 6 months | 750 USD | 4500 USD |
 
 ### Include any extra links completing the proposal here
 
