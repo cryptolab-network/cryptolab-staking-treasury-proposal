@@ -140,11 +140,9 @@ so that nominators are able to make adjustment in time.
 
 ### How does this proposal change the current logic in Kusama?
 
-(這一題好像列在 template裡面)
-
 ### Who does this solution help?
 
-我們的提案改變 Nominator 的行為模式，透過CryptoLab提供的服務，輕鬆掌握 validator 的狀態，減輕提名集中化的現況。對於獨立 validator而言，會帶來更多獲得提名的機會。
+We want to make staking simple so that DOT/KSM holders could choose to stake directly on chain instead of using wrapped solutions such as from centralized exchanges. Also, by providing an easy-to-understand view of validators, we want to ease the situation that most funds are gathered on a few validators to make the network more decentralized. Last but not least, we want to increase the chance for independent validators to be nominated.
 
 ### Milestones and tasks to include:
 
@@ -203,7 +201,7 @@ The operation costs later than 6 months would be applied in future proposals if 
 
 ## Why Kusama? 
 
-對於提名生態而言，Kusama網路對於 validator 相對友好，因為最低 lowest staked amount 大約在 4千多左右，是個相對容易達成的門檻。因此我們選擇從Kusama開始驗證 CryptoLab 的解決方案。另外Kusama社群也相對活躍，是個非常好的環境。
+Kusama ecosystem is friendly when it comes to staking. As the lowest staking amount is about 4500 KSM to be an active validator, and the number of validators is much larger than Polkadot, we chose Kusama to be the first place to verify our solution. Besides, the Kusama community is active. We can get feedbacks more easily from it.
 
 ## If you have seen similar proposals before: why is yours different?
 
