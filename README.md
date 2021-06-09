@@ -159,6 +159,12 @@ For the Telegram Bots for nominators, we plan to provide the followings,
 
 so that nominators are able to make adjustment in time.
 
+### Planned Service Architecture
+
+![image](https://user-images.githubusercontent.com/5772463/121299862-97f19980-c928-11eb-9598-d7842ef30a9c.png)
+
+The servers includes EC2 instances, one DB and one Redis instance, to operate CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
+
 ### Webpages in plan
 
 * Portfolio Benchmark
@@ -249,11 +255,16 @@ Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 
 * Treasury timeline related to milestones. We expect to have a report upon each milestone is done and online.
 
-1st milestone: include development and 6-month server fee. To be paid to after report is approved (24000 USD / 394.747 KSM ~= 60.8 KSM)
+1st milestone: include development and 6-month server fee. 
+
+Operation cost to be paid once the proposal is approved (6000 USD / 394.747 KSM ~= 15.2 KSM)
+Development cost To be paid to after report is approved (18000 USD / 394.747 KSM ~= 45.6 KSM)
 
 2nd milestone: to be paid to after report is approved (9750 USD / 394.737 KSM ~= 24.7 KSM)
 
 3rd milestone: to be paid to after report is approved (7500 USD / 394.737 KSM ~= 19 KSM)
+
+We would send proposals for each milestone once the previous milestone's final report is approved.
 
 * Development work will start upon approval.
 
