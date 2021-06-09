@@ -122,12 +122,12 @@ In simple mode, we offer several strategies to help users to select validators. 
 
 | Strategy | Description |
 | -------- | ----------- |
-| Low risk | In this mode, we select validators with <br/> <ul><li> self stake >= 50 KSM </li><li>has a verified identity</li><li>unclaimed eras < 16</li><li>no slash</li><li>can be bound to a telemetry node</li></ul> |
+| Low risk | In this mode, we select validators with <br/> <ul><li> self stake >= 50 KSM or 1000 DOT </li><li>has a verified identity</li><li>unclaimed eras < 16</li><li>no slash</li><li>can be bound to a telemetry node</li></ul> |
 | High APY | In this mode, we select validators with <br/> <ul><li>Highest average APY in recent 84 eras</li></ul> |
-| Decentralization | In this mode, we select validators with <br/><ul><li>Highest average APY in recent 84 eras</li><li>has a verified identity</li><li>but if an identity contains multiple subaccounts, only one among them would be selected</li></ul> |
+| Decentralization | In this mode, we select validators with <br/><ul><li>Highest average APY in recent 84 eras</li><li>has a verified identity</li><li>but if an identity contains multiple sub identities, only one among them would be selected</li></ul> |
 | One Thousand Validator Program| In this mode, we select validators with <br/><ul><li>is active in either Polkadot/Kusama One Thousand Validator Program</li></ul> |
 
-The following are the conditions we would like to take into account when we select validators
+The following are the conditions we would like to take into account when we select validators.
 
 | Conditions | Description|
 | ---------- | ---------- |
@@ -136,10 +136,14 @@ The following are the conditions we would like to take into account when we sele
 | Identity   | Users may filter only validators with an identity |
 | Unclaimed eras | Users may input the maximum unclaimed eras |
 | Previous slashes | Users may filter only validators with no slashing records |
-| Is Sub account| Users may filter only validators which are not a sub identity |
+| Is Sub identity| Users may filter only validators which are not a sub identity |
 | Historical APY(%)| Users may input the minimum historical APY in previous 84 eras | 
+| Inclusion | Users may input the minimum era inclusion rate in previous 84 eras |
 | Telemetry | Users may filter only validators which can be bound to a telemetry |
 
+In the advanced mode, users may set their own threshold to filter validators.
+
+Users are able to select their reward destination, there are three possible options the same as on the Polkadot App.
 
 ### Portfolio Management
 
