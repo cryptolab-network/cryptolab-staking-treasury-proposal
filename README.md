@@ -141,36 +141,40 @@ We want to make staking simple so that DOT/KSM holders could choose to stake dir
 
 ### Milestones and tasks to include:
 
-
 The milestones include (x) phases,
 
-#### Milestone 1.
+#### Milestone 1. (8-week)
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| Re-design the UI/UX of CryptoLab     | Designer: 1 | 3 weeks | 4,500 USD | xxxxx |
-| Implement CryptoLab Portfolio Benchmark | Developers: 2 | 2 weeks | z USD | xxxxx |
-| Implement CryptoLab Portfolio Management | Developers: 2 | 2 weeks | z USD | xxxxx |
-| Implement CryptoLab Staking Guide | Developers: 1 | 1 weeks | z USD | xxxxx |
+| Re-design the UI/UX of CryptoLab     | Designer: 1 | 3 weeks | 4,500 USD | Mockup UI in Adobe |
+| Implement CryptoLab Portfolio Benchmark | Developers: 2 | 2 weeks | 6000 USD | Webpages for nominators to filter validators by different conditions so that they can nominate them. |
+| Implement CryptoLab Portfolio Management | Developers: 2 | 2 weeks | 6000 USD | Webpages for nominators to monitor their revenue and validator status.  |
+| Implement CryptoLab Staking Guide | Developers: 1 | 1 weeks | 1500 USD | Webpages to guide nominators to stake on CryptoLab. |
 
+Total: 18000 USD
 
-#### Milestone 2.
+#### Milestone 2. (4.5-week)
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| RWD UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | xxxxx |
-| Implement RWD UI/UX of CryptoLab | Developers: 2 | 4 weeks | z USD | xxxxx |
-| Telegram Bots for nominators     | Developer: 1 | 1.5 weeks | z USD | xxxxx |
+| RWD UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | Mockup UI in Adobe for Phone and Tablet  |
+| Implement RWD UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | CryptoLab on Phone and Tablet |
+| Telegram Bots for nominators     | Developer: 1 | 1.5 weeks | 2250 USD | Telegram Bots for nominators, included features described in Portfolio Management. |
 
+Total: 9750 USD
 
-### Milestone 3.
+### Milestone 3. (3-week)
+ 
+ In this stage, we would like to apply the new UI/UX on current CryptoLab webpages, including *Kusama/Polkadot Validator/Nominator Status*, *Validator Dashboard* and *Kusama/Polkadot One Thousand Validator Monitor*.
  
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| Re-design UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | xxxxx |
-| Implement Re-design UI/UX of CryptoLab | Developers: 2 | x weeks | z USD | xxxxx |
-| Apply the redeigned UI/UX to existing features     | Developer: 1 | x weeks | z USD | xxxxx |
-    
+| Re-design UI/UX of CryptoLab    | Designer: 1 | 1 weeks | 1,500 USD | Mockup UI in Adobe |
+| Implement Re-designed UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | Reworked webpages |
+
+Total: 7500 USD
+
 Except from the milestones above, the server fee is another necessary expense for us to operate CryptoLab. 
 
 The server fee includes EC2 instances, DB and Redis instances, to run CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
@@ -184,6 +188,8 @@ The operation costs later than 6 months would be applied in future proposals if 
 | ----------- | --------- | -------- | ----- |
 | Server fee for CryptoLab     | 6 months | 250 USD | 1500 USD |
 | Server fee for runnig Polkadot/Kusama Nodes | 6 months | 750 USD | 4500 USD |
+
+Total: 6000 USD
 
 ### Include any extra links completing the proposal here
 
@@ -201,13 +207,16 @@ https://kusama.polkassembly.io/treasury/90
 
 ## Payment conditions
 
+Address: 
+Total Payment: 41250 USD => 41250 / 394.737 KSM = 104.5 KSM
 
-* CryptoLab (https://www.cryptolab.network)
-    * Simple staking tool
-    * Kusama/Polkadot Validator Dashboard
-    * 1kv dashboard for both Kusama and Polkadot
-    * Staking Rewards Reports
-* Telemetry Bot
-    * Kusama bot for validator (https://t.me/cryptolab_kusama_bot)
-    * Polkadot bot for validator (https://t.me/cryptolab_polkadot_bot)
-* A developer tool for exploring the Polkadot JS API (https://github.com/cryptolab-network/polkadot-api-cli)
+* To calculate the price, we use Subscan's 30 avg tool at the day of submission:
+Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
+
+* Treasury timeline related to milestones: each milestone represents a proposal submission, so in total the project include 3 submissions:
+1st milestone: to be paid to after report is approved
+2nd milestone: to be paid to after report is approved
+3rd milestone: to be paid to after report is approved
+
+* Development work will start upon approval.
+
