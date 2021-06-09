@@ -208,6 +208,7 @@ https://kusama.polkassembly.io/treasury/90
 ## Payment conditions
 
 Address: 
+
 Total Payment: 41250 USD => 41250 / 394.737 KSM = 104.5 KSM
 
 * To calculate the price, we use Subscan's 30 avg tool at the day of submission:
