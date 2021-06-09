@@ -212,3 +212,14 @@ https://kusama.polkassembly.io/treasury/82
 https://kusama.polkassembly.io/treasury/90
 
 ## Payment conditions
+
+
+* CryptoLab (https://www.cryptolab.network)
+    * Simple staking tool
+    * Kusama/Polkadot Validator Dashboard
+    * 1kv dashboard for both Kusama and Polkadot
+    * Staking Rewards Reports
+* Telemetry Bot
+    * Kusama bot for validator (https://t.me/cryptolab_kusama_bot)
+    * Polkadot bot for validator (https://t.me/cryptolab_polkadot_bot)
+* A developer tool for exploring the Polkadot JS API (https://github.com/cryptolab-network/polkadot-api-cli)
