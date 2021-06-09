@@ -93,10 +93,6 @@ However, we saw there are no complete *Portfolio Management* solutions for Polka
 
 To help nominators, we provide *Portfolio Benchmark* to help them to choose which validators to nominate. We provide *Portfolio Management* to help nominators to monitor validator status so they can make adjustment just in time.
 
-### Portfolio Benchmark
-
-### Portfolio Management
-
 We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is the time to polish the website and to work on providing a total solution for staking.
 
 There are four top-tier goals included in this propsal.
@@ -118,10 +114,37 @@ For the Telegram Bots for validators, we plan to,
 
 The goal 3. and 4. are what we are planning to do. 
 
-For the CryptoLab Staking Tool, we plan to,
+### Portfolio Benchmark
 
-* Design and develop Portfolio Benchmark web page to provide simple and advanced staking tools.
-* Design and develop Portfolio Management web page for nominators to track (things) such as revenue, validator status and more.
+In Portfolio Benchmark, we would like to help DOT/KSM holders to stake in a single step. It has two modes, simple and advanced.
+
+In simple mode, we offer several strategies to help users to select validators. The following table is the detailed description of these strategies.
+
+| Strategy | Description |
+| -------- | ----------- |
+| Low risk | In this mode, we select validators with <br/> <ul><li> self stake >= 50 KSM </li><li>has a verified identity</li><li>unclaimed eras < 16</li><li>no slash</li><li>can be bound to a telemetry node</li></ul> |
+| High APY | In this mode, we select validators with <br/> <ul><li>Highest average APY in recent 84 eras</li></ul> |
+| Decentralization | In this mode, we select validators with <br/><ul><li>Highest average APY in recent 84 eras</li><li>has a verified identity</li><li>but if an identity contains multiple subaccounts, only one among them would be selected</li></ul> |
+| One Thousand Validator Program| In this mode, we select validators with <br/><ul><li>is active in either Polkadot/Kusama One Thousand Validator Program</li></ul> |
+
+The following are the conditions we would like to take into account when we select validators
+
+| Conditions | Description|
+| ---------- | ---------- |
+| Self Stake | Users may input the minimum self stake |
+| Commision  | Users may input the maximum commission |
+| Identity   | Users may filter only validators with an identity |
+| Unclaimed eras | Users may input the maximum unclaimed eras |
+| Previous slashes | Users may filter only validators with no slashing records |
+| Is Sub account| Users may filter only validators which are not a sub identity |
+| Historical APY(%)| Users may input the minimum historical APY in previous 84 eras | 
+| Telemetry | Users may filter only validators which can be bound to a telemetry |
+
+
+### Portfolio Management
+
+### Telegram Bots for nominators
+
 
 For the Telegram Bots for nominators, we plan to provide the followings,
 
