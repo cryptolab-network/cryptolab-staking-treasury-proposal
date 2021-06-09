@@ -91,7 +91,7 @@ However, we saw there are no complete *Portfolio Management* solutions for Polka
 (加一段說明 total solution 投前 投後)
 我們將完整的Staking解決方案分成兩大部分，首先 Portfolio Benchmark 解決 validators 難以評估的問題，讓 Nominator 能夠順利完成提名。接著是 Portfolio Management，幫助 Nominator 持續追蹤validator表現狀況，並提供主動式通知的功能，以便隨時調整提名。後續將以我們重新設計的介面，逐一介紹目前規劃的每一個功能。
 
-To help nominators, we provide *Portfolio Benchmark* to help them to choose which validators to nominate. We provide *Portfolio Management* to help nominators to monitor validator status so they can make adjustment just in time.
+We provide *Portfolio Benchmark* to help nominators to choose which validators to nominate. *Portfolio Management* to help nominators to monitor validator status so they can make adjustment just in time.
 
 We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is the time to polish the website and to work on providing a total solution for staking.
 
@@ -120,6 +120,8 @@ In Portfolio Benchmark, we would like to help DOT/KSM holders to stake in a sing
 
 In simple mode, we offer several strategies to help users to select validators. The following table is the detailed description of these strategies.
 
+![image](https://user-images.githubusercontent.com/5772463/121184696-ed319a80-c897-11eb-93e3-3285c705f6fa.png)
+
 | Strategy | Description |
 | -------- | ----------- |
 | Low risk | In this mode, we select validators with <br/> <ul><li> self stake >= 50 KSM or 1000 DOT </li><li>has a verified identity</li><li>unclaimed eras < 16</li><li>no slash</li><li>can be bound to a telemetry node</li></ul> |
@@ -145,6 +147,8 @@ In the advanced mode, users may set their own threshold to filter validators.
 
 Users are able to select their reward destination, there are three possible options the same as on the Polkadot App.
 
+Once the validator list is generated and the reward destination is selected, nominators can press the Nominate button, and the Polkadot Browser Extension would popup to ask them to sign the transaction.
+
 ### Portfolio Management
 
 ### Telegram Bots for nominators
@@ -164,13 +168,6 @@ so that nominators are able to make adjustment in time.
 ![image](https://user-images.githubusercontent.com/5772463/121299862-97f19980-c928-11eb-9598-d7842ef30a9c.png)
 
 The servers includes EC2 instances, one DB and one Redis instance, to operate CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
-
-### Webpages in plan
-
-* Portfolio Benchmark
-
-![image](https://user-images.githubusercontent.com/5772463/121184696-ed319a80-c897-11eb-93e3-3285c705f6fa.png)
-
 
 ### How does this proposal change the current logic in Kusama?
 
@@ -258,11 +255,11 @@ Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 1st milestone: include development and 6-month server fee. 
 
 Operation cost to be paid once the proposal is approved (6000 USD / 394.747 KSM ~= 15.2 KSM)
-Development cost To be paid to after report is approved (18000 USD / 394.747 KSM ~= 45.6 KSM)
+Development cost To be paid to after the report is approved (18000 USD / 394.747 KSM ~= 45.6 KSM)
 
-2nd milestone: to be paid to after report is approved (9750 USD / 394.737 KSM ~= 24.7 KSM)
+2nd milestone: to be paid to after the report is approved (9750 USD / 394.737 KSM ~= 24.7 KSM)
 
-3rd milestone: to be paid to after report is approved (7500 USD / 394.737 KSM ~= 19 KSM)
+3rd milestone: to be paid to after the report is approved (7500 USD / 394.737 KSM ~= 19 KSM)
 
 We would send proposals for each milestone once the previous milestone's final report is approved.
 
