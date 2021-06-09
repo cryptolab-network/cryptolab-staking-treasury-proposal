@@ -214,7 +214,7 @@ Total Payment: 41250 USD => 41250 / 394.737 KSM = 104.5 KSM
 * To calculate the price, we use Subscan's 30 avg tool at the day of submission:
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 
-* Treasury timeline related to milestones: each milestone represents a proposal submission, so in total the project include 3 submissions:
+* Treasury timeline related to milestones. We expect to have a report upon each milestone is done and online.
 
 1st milestone: to be paid to after report is approved
 
