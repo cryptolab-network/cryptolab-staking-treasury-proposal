@@ -156,11 +156,9 @@ In Portfolio Management, the CryptoLab would cover aspects such as revenue repor
 
 There would have several pages in Portfolio Management, the first one is *Performance*.
 
-In Performance page, users can see a summary of their earnings from all accounts in their wallets. There would have charts and tables, and users may choose different timespan to see the sum of their profit.
+In Performance page, users can see a summary of their earnings from all accounts in their wallets. There would have charts and tables, and users may choose different timespan to see the sum of their profit. Users may also see a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
 
-The second one is the Reward/Slash page. In this page, users can have a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
-
-The third one is unique, the Notification page. Users are able to bind the CryptoLab bots to Telegram and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
+The third one is unique, the Notification page. Users are able to bind the CryptoLab bots to Telegram or emails and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
 
 In this stage, these events would be recorded.
 
@@ -186,9 +184,11 @@ so that nominators are able to make adjustment in time.
 
 ### Planned Service Architecture
 
+Current CryptoLab is running on a single VPS, and retrieve data on-chain through either Parity or onFinality. There is still room for improvement. Retrieving validators and nominators data while listening to Payout events and saving them to a DB could be longer than 30 minutes. We plan to separate the processes to different instances and use the resource on AWS to improve the performance.
+
 ![image](https://user-images.githubusercontent.com/5772463/121299862-97f19980-c928-11eb-9598-d7842ef30a9c.png)
 
-The servers includes EC2 instances, one DB and one Redis instance, to operate CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
+The servers is consist of two EC2 instances, one DB and one Redis instance, to operate the CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node so that on-chain data could be retrieved faster.
 
 ### How does this proposal change the current logic in Kusama?
 
