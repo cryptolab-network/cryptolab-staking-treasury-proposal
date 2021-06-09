@@ -98,21 +98,16 @@ We have already provided some tools on CryptoLab and also Telegram bots and have
 There are four top-tier goals included in this propsal.
 
 1. Current CryptoLab website maintanence
-2. Telegram Bots for both Polkadot/Kusama validators maintanence
-3. CryptoLab Staking Tool
-4. Telegram Bots for both Polkadot/Kusama nominators
+2. CryptoLab Staking Tool
+3. Telegram Bots for both Polkadot/Kusama nominators
 
 The first two goals are focused on making what we have done better. We plan to enhance the current CryptoLab by
 
 * Re-design the UI/UX of CryptoLab, including RWD.
 * Move the service to AWS to improve the performance.
-* Maintain our own Polkadot/Kusama archived nodes to make the performance better.
+* Maintain our own Polkadot/Kusama archived nodes to improve the performance.
 
-For the Telegram Bots for validators, we plan to,
-
-* (Maintanence and add more features to it)
-
-The goal 3. and 4. are what we are planning to do. 
+The goal 2. and 3. are what we are planning to do. 
 
 ### Portfolio Benchmark
 
@@ -173,7 +168,7 @@ In this stage, these events would be recorded.
 | ----- | ----------- |
 | commission change | CryptoLab would create an event when validator commission is changed. |
 | slash | CryptoLab would create an event when a validator is slashed. |
-| All inactive | CryptoLab would create an event when all nominated validators are inactive in an era. |
+| all inactive | CryptoLab would create an event when all nominated validators are inactive in an era. |
 
 The CryptoLab would keep the events for 84 days.
 
