@@ -167,12 +167,13 @@ The second one is the Reward/Slash page. In this page, users can have a detailed
 
 The third one is unique, the Notification page. Users are able to bind the CryptoLab bots to Telegram and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
 
-In this stage, two kinds of events would be recorded.
+In this stage, these events would be recorded.
 
 | event | description |
 | ----- | ----------- |
 | commission change | CryptoLab would create an event when validator commission is changed. |
 | slash | CryptoLab would create an event when a validator is slashed. |
+| All inactive | CryptoLab would create an event when all nominated validators are inactive in an era. |
 
 The CryptoLab would keep the events for 84 days.
 
