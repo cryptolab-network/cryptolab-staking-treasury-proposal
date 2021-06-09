@@ -55,14 +55,15 @@ We appreciate the feedbacks from the community, which encouraged us to make it b
 
 ## Problem statement: 
 
-As Polkadot/Kusama are NPoS consensus based chains, nominators are able to nominate more than one validator, which makes staking on them complicated. When users stake on most blockchains, they just need to choose one validator and delegate their funds to them. When staking on Polkadot/Kusama, they can (and mostly have to) choose up to 24 validators. It is hard for nominators to analyse so many validators to see which ones are trustworthy and are able to earn most revenue from them.
+As Polkadot/Kusama are NPoS consensus based chains, nominators are able to nominate more than one validator, which makes staking procedire complicated. When users stake on most blockchains, they just need to choose one validator and delegate their funds to them. When staking on Polkadot/Kusama, they can (and mostly have to) choose up to 24 validators. It is hard for nominators to analyse so many validators to see which ones are trustworthy and are able to earn most revenue from them.
 
 From our observation, nominators tends to
 
 * nominate in centralized exchanges, which hurts decentralization.
 * nominate top validators on the Target page on Polkadot App, which still hurt decentralization because by doing it, funds tend to be delegated to those already have enough backups.
+* nominate only active validators, which also make funds gathered to those already have enough backups.
 
-There are developers from the community trying to resolve the problem by providing validator ranking system and simple (改成 user friendly?) staking tools.
+There are developers from the community trying to resolve the problem by providing validator ranking system and user friendly staking tools.
 
 1. Yieldscan (https://yieldscan.app/)
 
@@ -77,20 +78,20 @@ Polkastats is another similar project, it is a validator resource center. The si
 
 Simple staking tools are offered by centralized exchanges, they are designed to make staking procedure as simple as a nominate button. There should be an auto staking management system behind these exchanges. The cons of using it are, first, the APY is worse because of service fee and second, it hurts decentralization. The pros and cons are similar when it comes to those blockchains which offers auto staking services.
 
-Ignore 3., we saw there are no complete *Portfolio Management* solutions for Polkadot/Kusama nominators to track their revenue from staking and validator status after nonimation. In our view, staking is not an one-time operation, it should be constantly monitored and adjusted to ensure profit. We saw no such solution is on the market now.
+However, we saw there are no complete *Portfolio Management* solutions for Polkadot/Kusama nominators to track their revenue from staking and validator status after nonimation. In our view, staking is not an one-time operation, it should be constantly monitored and adjusted to ensure profit. We saw no such solutions on the market now.
 
 ## Proposal Objective/solution/s to point 2:
 
 (加一段說明 total solution 投前 投後)
 我們將完整的Staking解決方案分成兩大部分，首先 Portfolio Benchmark 解決 validators 難以評估的問題，讓 Nominator 能夠順利完成提名。接著是 Portfolio Management，幫助 Nominator 持續追蹤validator表現狀況，並提供主動式通知的功能，以便隨時調整提名。後續將以我們重新設計的介面，逐一介紹目前規劃的每一個功能。
 
+To help nominators, we provide *Portfolio Benchmark* to help them to choose which validators to nominate. We provide *Portfolio Management* to help nominators to monitor validator status so they can make adjustment just in time.
+
 ### Portfolio Benchmark
 
 ### Portfolio Management
 
-
-
-We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is time to polish the site and to work on providing a total solution on staking.
+We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is the time to polish the website and to work on providing a total solution for staking.
 
 There are four top-tier goals included in this propsal.
 
@@ -101,9 +102,9 @@ There are four top-tier goals included in this propsal.
 
 The first two goals are focused on making what we have done better. We plan to enhance the current CryptoLab by
 
-* Re-design the UI/UX of CryptoLab, including RWD
-* Move the service to AWS to improve the performance
-* Maintain our Polkadot/Kusama archived node
+* Re-design the UI/UX of CryptoLab, including RWD.
+* Move the service to AWS to improve the performance.
+* Maintain our own Polkadot/Kusama archived nodes to make the performance better.
 
 For the Telegram Bots for validators, we plan to,
 
@@ -134,11 +135,9 @@ so that nominators are able to make adjustment in time.
 
 ### How does this proposal change the current logic in Kusama?
 
-(這一題好像列在 template裡面)
-
 ### Who does this solution help?
 
-我們的提案改變 Nominator 的行為模式，透過CryptoLab提供的服務，輕鬆掌握 validator 的狀態，減輕提名集中化的現況。對於獨立 validator而言，會帶來更多獲得提名的機會。
+We want to make staking simple so that DOT/KSM holders could choose to stake directly on chain instead of using wrapped solutions such as from centralized exchanges. Also, by providing an easy-to-understand view of validators, we want to ease the situation that most funds are gathered on a few validators to make the network more decentralized. Last but not least, we want to increase the chance for independent validators to be nominated.
 
 ### Milestones and tasks to include:
 
@@ -197,7 +196,7 @@ The operation costs later than 6 months would be applied in future proposals if 
 
 ## Why Kusama? 
 
-對於提名生態而言，Kusama網路對於 validator 相對友好，因為最低 lowest staked amount 大約在 4千多左右，是個相對容易達成的門檻。因此我們選擇從Kusama開始驗證 CryptoLab 的解決方案。另外Kusama社群也相對活躍，是個非常好的環境。
+Kusama ecosystem is friendly when it comes to staking. As the lowest staking amount is about 4500 KSM to be an active validator, and the number of validators is much larger than Polkadot, we chose Kusama to be the first place to verify our solution. Besides, the Kusama community is active. We can get feedbacks more easily from it.
 
 ## If you have seen similar proposals before: why is yours different?
 
