@@ -213,9 +213,9 @@ Total: 9750 USD
 
 Total: 7500 USD
 
-Except from the milestones above, the server fee is another necessary expense for us to operate CryptoLab. 
+Except from the milestones above, the operation cost is another necessary expense for us to operate CryptoLab. 
 
-The server fee includes EC2 instances, DB and Redis instances, to run CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
+The operation cost includes EC2 instances, DB and Redis instances, to run CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node.
 
 *We can provide the detailed estimation from AWS calculator if the commitee needs it*
 
@@ -224,8 +224,8 @@ The operation costs later than 6 months would be applied in future proposals if 
 
 | Description | Duration | Price | Total | 
 | ----------- | --------- | -------- | ----- |
-| Server fee for CryptoLab     | 6 months | 250 USD | 1500 USD |
-| Server fee for runnig Polkadot/Kusama Nodes | 6 months | 750 USD | 4500 USD |
+| Operation cost for CryptoLab     | 6 months | 250 USD | 1500 USD |
+| Operation cost for runnig Polkadot/Kusama Nodes | 6 months | 750 USD | 4500 USD |
 
 Total: 6000 USD
 
@@ -254,7 +254,7 @@ Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 
 * Treasury timeline related to milestones. We expect to have a report upon each milestone is done and online.
 
-1st milestone: include development and 6-month server fee. 
+1st milestone: include development and 6-month operation cost. 
 
 Operation cost to be paid once the proposal is approved (6000 USD / 394.747 KSM ~= 15.2 KSM)
 Development cost To be paid to after the report is approved (18000 USD / 394.747 KSM ~= 45.6 KSM)
