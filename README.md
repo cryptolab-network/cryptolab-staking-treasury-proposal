@@ -118,9 +118,13 @@ The goal 3. and 4. are what we are planning to do.
 
 In Portfolio Benchmark, we would like to help DOT/KSM holders to stake in a single step. It has two modes, simple and advanced.
 
-In simple mode, we offer several strategies to help users to select validators. The following table is the detailed description of these strategies.
+Nominators first need to allow CryptoLab in Polkadot Browser Extension. The website would detect the amount of KSM/DOT in each account.
+
+In simple mode, our goal is to make a one-button staking feature.
 
 ![image](https://user-images.githubusercontent.com/5772463/121184696-ed319a80-c897-11eb-93e3-3285c705f6fa.png)
+
+We offer several strategies to help users to select validators. The following table is the detailed description of these strategies.
 
 | Strategy | Description |
 | -------- | ----------- |
@@ -128,6 +132,8 @@ In simple mode, we offer several strategies to help users to select validators. 
 | High APY | In this mode, we select validators with <br/> <ul><li>Highest average APY in recent 84 eras</li></ul> |
 | Decentralization | In this mode, we select validators with <br/><ul><li>Highest average APY in recent 84 eras</li><li>has a verified identity</li><li>but if an identity contains multiple sub identities, only one among them would be selected</li></ul> |
 | One Thousand Validator Program| In this mode, we select validators with <br/><ul><li>is active in either Polkadot/Kusama One Thousand Validator Program</li></ul> |
+
+In the advanced mode, users may set their own threshold to filter validators. Then they can select up to 24 validators in Kusama and 16 validators in Polkadot to nominate.
 
 The following are the conditions we would like to take into account when we select validators.
 
@@ -143,11 +149,9 @@ The following are the conditions we would like to take into account when we sele
 | Inclusion | Users may input the minimum era inclusion rate in previous 84 eras |
 | Telemetry | Users may filter only validators which can be bound to a telemetry |
 
-In the advanced mode, users may set their own threshold to filter validators.
+![image](https://user-images.githubusercontent.com/5772463/121305770-93c97a00-c930-11eb-953f-9a8ef607aa12.png)
 
-Users first need to allow CryptoLab in Polkadot Browser Extension. The website would detect the amound of KSM/DOT in each account.
-
-They then could input how much funds they want to stake and they are able to select their reward destination, there are three possible options the same as on the Polkadot App.
+They then could input how much funds they want to stake and they are able to select their reward destinations, there are three possible options the same as on the Polkadot App.
 
 Once the validator list is generated and the reward destination is selected, nominators can press the Nominate button, and the Polkadot Browser Extension would popup to ask them to sign the transaction.
 
