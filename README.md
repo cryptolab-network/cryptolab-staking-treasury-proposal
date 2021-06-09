@@ -148,16 +148,17 @@ The milestones include (x) phases,
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| Re-design the UI/UX of CryptoLab     | Designer: 1 | x weeks | z USD | xxxxx |
-| Implement CryptoLab Portfolio Benchmark | Developers: 3 | x weeks | z USD | xxxxx |
-| Implement CryptoLab Portfolio Management | Developers: 3 | x weeks | z USD | xxxxx |
-| Implement CryptoLab Staking Guide | Developers: 1 | x weeks | z USD | xxxxx |
+| Re-design the UI/UX of CryptoLab     | Designer: 1 | 3 weeks | 4,500 USD | xxxxx |
+| Implement CryptoLab Portfolio Benchmark | Developers: 2 | 2 weeks | z USD | xxxxx |
+| Implement CryptoLab Portfolio Management | Developers: 2 | 2 weeks | z USD | xxxxx |
+| Implement CryptoLab Staking Guide | Developers: 1 | 1 weeks | z USD | xxxxx |
 
 
 #### Milestone 2.
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
+| RWD UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | xxxxx |
 | Telegram Bots for nominators     | Developer: 1 | x weeks | z USD | xxxxx |
 
 
@@ -165,6 +166,7 @@ The milestones include (x) phases,
  
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
+| Re-design UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | xxxxx |
 | Apply the redeigned UI/UX to existing features     | Developer: 1 | x weeks | z USD | xxxxx |
     
 Except from the milestones above, the server fee is another necessary expense for us to operate CryptoLab. 
