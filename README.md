@@ -209,18 +209,18 @@ https://kusama.polkassembly.io/treasury/90
 
 Address: 
 
-Total Payment: 41250 USD => 41250 / 394.737 KSM = 104.5 KSM
+Total Payment: 41250 USD / 394.737 KSM = 104.5 KSM
 
 * To calculate the price, we use Subscan's 30 avg tool at the day of submission:
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 
 * Treasury timeline related to milestones. We expect to have a report upon each milestone is done and online.
 
-1st milestone: to be paid to after report is approved
+1st milestone: include development and 6-month server fee. To be paid to after report is approved (24000 USD / 394.747 KSM ~= 60.8 KSM)
 
-2nd milestone: to be paid to after report is approved
+2nd milestone: to be paid to after report is approved (9750 USD / 394.737 KSM ~= 24.7 KSM)
 
-3rd milestone: to be paid to after report is approved
+3rd milestone: to be paid to after report is approved (7500 USD / 394.737 KSM ~= 19 KSM)
 
 * Development work will start upon approval.
 
