@@ -159,7 +159,8 @@ The milestones include (x) phases,
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
 | RWD UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | xxxxx |
-| Telegram Bots for nominators     | Developer: 1 | x weeks | z USD | xxxxx |
+| Implement RWD UI/UX of CryptoLab | Developers: 2 | 4 weeks | z USD | xxxxx |
+| Telegram Bots for nominators     | Developer: 1 | 1.5 weeks | z USD | xxxxx |
 
 
 ### Milestone 3.
@@ -167,6 +168,7 @@ The milestones include (x) phases,
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
 | Re-design UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | xxxxx |
+| Implement Re-design UI/UX of CryptoLab | Developers: 2 | x weeks | z USD | xxxxx |
 | Apply the redeigned UI/UX to existing features     | Developer: 1 | x weeks | z USD | xxxxx |
     
 Except from the milestones above, the server fee is another necessary expense for us to operate CryptoLab. 
