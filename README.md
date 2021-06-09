@@ -215,8 +215,11 @@ Total Payment: 41250 USD => 41250 / 394.737 KSM = 104.5 KSM
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 
 * Treasury timeline related to milestones: each milestone represents a proposal submission, so in total the project include 3 submissions:
+
 1st milestone: to be paid to after report is approved
+
 2nd milestone: to be paid to after report is approved
+
 3rd milestone: to be paid to after report is approved
 
 * Development work will start upon approval.
