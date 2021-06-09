@@ -140,7 +140,11 @@ so that nominators are able to make adjustment in time.
 
 ### How does this proposal change the current logic in Kusama?
 
+(這一題好像列在 template裡面)
+
 ### Who does this solution help?
+
+我們的提案改變 Nominator 的行為模式，透過CryptoLab提供的服務，輕鬆掌握 validator 的狀態，減輕提名集中化的現況。對於獨立 validator而言，會帶來更多獲得提名的機會。
 
 ### Milestones and tasks to include:
 
@@ -196,6 +200,8 @@ The operation costs later than 6 months would be applied in future proposals if 
 ### Include any extra links completing the proposal here
 
 ## Why Kusama? 
+
+
 
 ## If you have seen similar proposals before: why is yours different?
 
