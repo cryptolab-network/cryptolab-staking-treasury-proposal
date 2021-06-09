@@ -199,9 +199,11 @@ The operation costs later than 6 months would be applied in future proposals if 
 
 ### Include any extra links completing the proposal here
 
+[CryptoLab](https://www.cryptolab.network)
+
 ## Why Kusama? 
 
-
+對於提名生態而言，Kusama網路對於 validator 相對友好，因為最低 lowest staked amount 大約在 4千多左右，是個相對容易達成的門檻。因此我們選擇從Kusama開始驗證 CryptoLab 的解決方案。另外Kusama社群也相對活躍，是個非常好的環境。
 
 ## If you have seen similar proposals before: why is yours different?
 
