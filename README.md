@@ -131,7 +131,7 @@ We offer several strategies to help users to select validators. The following ta
 | Low risk | In this mode, we select validators with <br/> <ul><li> self stake >= 50 KSM or 1000 DOT </li><li>has a verified identity</li><li>unclaimed eras < 16</li><li>no slash</li><li>can be bound to a telemetry node</li></ul> |
 | High APY | In this mode, we select validators with <br/> <ul><li>Highest average APY in recent 84 eras</li></ul> |
 | Decentralization | In this mode, we select validators with <br/><ul><li>Highest average APY in recent 84 eras</li><li>has a verified identity</li><li>but if an identity contains multiple sub identities, only one among them would be selected</li></ul> |
-| One Thousand Validator Program| In this mode, we select validators with <br/><ul><li>is active in either Polkadot/Kusama One Thousand Validator Program</li></ul> |
+| One Thousand Validator Program| In this mode, we select validators with <br/><ul><li>is active in either Polkadot/Kusama One Thousand Validator Program</li><li>we would also use the current strategy to choose from 1kv validators to maximize the chance that at least one of the node is active</li></ul> |
 
 In the advanced mode, users may set their own threshold to filter validators. Then they can select up to 24 validators in Kusama and 16 validators in Polkadot to nominate.
 
@@ -183,15 +183,15 @@ We want to make staking simple so that DOT/KSM holders could choose to stake dir
 
 ### Milestones and tasks to include:
 
-The milestones include (x) phases,
+The milestones include 3 phases, we would send each milestone in separate proposals. The designer and developer cost are estimated as 1500 USD/week (full time)
 
-#### Milestone 1. (8-week)
+#### Milestone 1. (10-week)
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
 | Re-design the UI/UX of CryptoLab     | Designer: 1 | 3 weeks | 4,500 USD | Mockup UI in Adobe |
 | Implement CryptoLab Portfolio Benchmark | Developers: 2 | 2 weeks | 6000 USD | Webpages for nominators to filter validators by different conditions so that they can nominate them. |
-| Implement CryptoLab Portfolio Management | Developers: 2 | 2 weeks | 6000 USD | Webpages for nominators to monitor their revenue and validator status.  |
+| Implement CryptoLab Portfolio Management | Developers: 2 | 4 weeks | 12000 USD | Webpages for nominators to monitor their revenue and validator status.  |
 | Implement CryptoLab Staking Guide | Developers: 1 | 1 weeks | 1500 USD | Webpages to guide nominators to stake on CryptoLab. |
 
 Total: 18000 USD
@@ -251,7 +251,7 @@ https://kusama.polkassembly.io/treasury/90
 
 Address: 
 
-Total Payment: 41250 USD / 394.737 KSM = 104.5 KSM
+Total Payment: 47250 USD / 394.737 KSM = 119.7 KSM
 
 * To calculate the price, we use Subscan's 30 avg tool at the day of submission:
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
@@ -261,7 +261,7 @@ Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 1st milestone: include development and 6-month operation cost. 
 
 Operation cost to be paid once the proposal is approved (6000 USD / 394.747 KSM ~= 15.2 KSM)
-Development cost To be paid to after the report is approved (18000 USD / 394.747 KSM ~= 45.6 KSM)
+Development cost To be paid to after the report is approved (24000 USD / 394.747 KSM ~= 60.8 KSM)
 
 2nd milestone: to be paid to after the report is approved (9750 USD / 394.737 KSM ~= 24.7 KSM)
 
