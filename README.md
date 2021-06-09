@@ -131,7 +131,7 @@ We offer several strategies to help users to select validators. The following ta
 | Low risk | In this mode, we select validators with <br/> <ul><li> self stake >= 50 KSM or 1000 DOT </li><li>has a verified identity</li><li>unclaimed eras < 16</li><li>no slash</li><li>can be bound to a telemetry node</li></ul> |
 | High APY | In this mode, we select validators with <br/> <ul><li>Highest average APY in recent 84 eras</li></ul> |
 | Decentralization | In this mode, we select validators with <br/><ul><li>Highest average APY in recent 84 eras</li><li>has a verified identity</li><li>but if an identity contains multiple sub identities, only one among them would be selected</li></ul> |
-| One Thousand Validator Program| In this mode, we select validators with <br/><ul><li>is active in either Polkadot/Kusama One Thousand Validator Program</li><li>we would also use the current strategy to choose from 1kv validators to maximize the chance that at least one of the node is active</li></ul> |
+| One Thousand Validator Program| In this mode, we select validators with <br/><ul><li>is active in either Polkadot/Kusama One Thousand Validator Program</li><li>we would also use the current strategy, which is already being implemented in CryptoLab to choose from 1kv validators to maximize the chance that at least one of the node is active</li></ul> |
 
 In the advanced mode, users may set their own threshold to filter validators. Then they can select up to 24 validators in Kusama and 16 validators in Polkadot to nominate.
 
@@ -156,6 +156,25 @@ They then could input how much funds they want to stake and they are able to sel
 Once the validator list is generated and the reward destination is selected, nominators can press the Nominate button, and the Polkadot Browser Extension would popup to ask them to sign the transaction.
 
 ### Portfolio Management
+
+In Portfolio Management, the CryptoLab would cover aspects such as revenue report, validator status notification and re-nomination. The goal is to help nominators to constantly monitor and ensure their profit via staking. 
+
+There would have several pages in Portfolio Management, the first one is *Performance*.
+
+In Performance page, users can see a summary of their earnings from all accounts in their wallets. There would have charts and tables, and users may choose different timespan to see the sum of their profit.
+
+The second one is the Reward/Slash page. In this page, users can have a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
+
+The third one is unique, the Notification page. Users are able to bind the CryptoLab bots to Telegram and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
+
+In this stage, two kinds of events would be recorded.
+
+| event | description |
+| ----- | ----------- |
+| commission change | CryptoLab would create an event when validator commission is changed. |
+| slash | CryptoLab would create an event when a validator is slashed. |
+
+The CryptoLab would keep the events for 84 days.
 
 ### Telegram Bots for nominators
 
