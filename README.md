@@ -145,7 +145,9 @@ The following are the conditions we would like to take into account when we sele
 
 In the advanced mode, users may set their own threshold to filter validators.
 
-Users are able to select their reward destination, there are three possible options the same as on the Polkadot App.
+Users first need to allow CryptoLab in Polkadot Browser Extension. The website would detect the amound of KSM/DOT in each account.
+
+They then could input how much funds they want to stake and they are able to select their reward destination, there are three possible options the same as on the Polkadot App.
 
 Once the validator list is generated and the reward destination is selected, nominators can press the Nominate button, and the Polkadot Browser Extension would popup to ask them to sign the transaction.
 
