@@ -95,7 +95,7 @@ We provide *Portfolio Benchmark* to help nominators to choose which validators t
 
 We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is the time to polish the website and to work on providing a total solution for staking.
 
-There are four (改成three?) top-tier goals included in this propsal.
+There are three top-tier goals included in this propsal.
 
 1. Current CryptoLab website maintanence
 2. CryptoLab Staking Tool
@@ -158,9 +158,9 @@ There would have several pages in Portfolio Management, the first one is *Perfor
 
 In Performance page, users can see a summary of their earnings from all accounts in their wallets. There would have charts and tables, and users may choose different timespan to see the sum of their profit. Users may also see a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
 
-The third one is unique, the Notification page. Users are able to bind the CryptoLab bots to Telegram or emails and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
+The second one is unique, the Notification page. In this page, historical events would be listed. These events would be recorded.
 
-In this stage, these events would be recorded.
+![image](https://user-images.githubusercontent.com/5772463/121495813-81247300-ca0c-11eb-9beb-8584aa489bcc.png)
 
 | event | description |
 | ----- | ----------- |
@@ -168,7 +168,9 @@ In this stage, these events would be recorded.
 | slash | CryptoLab would create an event when a validator is slashed. |
 | all inactive | CryptoLab would create an event when all nominated validators are inactive in an era. |
 
-The CryptoLab would keep the events for 84 days (改成 eras?). 
+Users are also able to bind the CryptoLab bots to Telegram or emails and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
+
+The CryptoLab would keep the events for 84 eras.
 
 ### Telegram Bots for nominators
 
