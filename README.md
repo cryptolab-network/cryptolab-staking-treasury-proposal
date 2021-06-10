@@ -95,7 +95,7 @@ We provide *Portfolio Benchmark* to help nominators to choose which validators t
 
 We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is the time to polish the website and to work on providing a total solution for staking.
 
-There are four top-tier goals included in this propsal.
+There are four (改成three?) top-tier goals included in this propsal.
 
 1. Current CryptoLab website maintanence
 2. CryptoLab Staking Tool
@@ -168,7 +168,7 @@ In this stage, these events would be recorded.
 | slash | CryptoLab would create an event when a validator is slashed. |
 | all inactive | CryptoLab would create an event when all nominated validators are inactive in an era. |
 
-The CryptoLab would keep the events for 84 days.
+The CryptoLab would keep the events for 84 days (改成 eras?). 
 
 ### Telegram Bots for nominators
 
@@ -177,6 +177,7 @@ For the Telegram Bots for nominators, we plan to provide the followings,
 
 * Notify users when a validator commission is changed.
 * Notify users when a validator is slashed.
+* Notify users when a validator is oversubscribed. (多加一個)
 * Notify users when all validators they selected are inactive.
 * Regular revenue reports
 
@@ -186,11 +187,15 @@ so that nominators are able to make adjustment in time.
 
 Current CryptoLab is running on a single VPS, and retrieve data on-chain through either Parity or onFinality. There is still room for improvement. Retrieving validators and nominators data while listening to Payout events and saving them to a DB could be longer than 30 minutes. We plan to separate the processes to different instances and use the resource on AWS to improve the performance.
 
-![image](https://user-images.githubusercontent.com/5772463/121299862-97f19980-c928-11eb-9598-d7842ef30a9c.png)
+(圖上 多加一個 Kusama node)
+
+![image](https://user-images.githubusercontent.com/3665658/121481654-ecffdf00-c9fe-11eb-8667-012544da1385.png)
 
 The servers is consist of two EC2 instances, one DB and one Redis instance, to operate the CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node so that on-chain data could be retrieved faster.
 
 ### How does this proposal change the current logic in Kusama?
+
+(template 沒有這一題，我們也沒改變什麼原生的東西，拿掉？)
 
 ### Who does this solution help?
 
@@ -200,7 +205,7 @@ We want to make staking simple so that DOT/KSM holders could choose to stake dir
 
 The milestones include 3 phases, we would send each milestone in separate proposals. The designer and developer cost are estimated as 1500 USD/week (full time)
 
-#### Milestone 1. (10-week)
+#### Milestone 1. (10-week) (這是要算實作時間嗎？那應該短一些，有些可以同時開工)
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
@@ -209,9 +214,11 @@ The milestones include 3 phases, we would send each milestone in separate propos
 | Implement CryptoLab Portfolio Management | Developers: 2 | 4 weeks | 12000 USD | Webpages for nominators to monitor their revenue and validator status.  |
 | Implement CryptoLab Staking Guide | Developers: 1 | 1 weeks | 1500 USD | Webpages to guide nominators to stake on CryptoLab. |
 
+(Telegram Bots for nominators. 移到 milestone 1，以增加完成性)
+
 Total: 18000 USD
 
-#### Milestone 2. (4.5-week)
+#### Milestone 2. (4.5-week) (這是要算實作時間嗎？那應該短一些，有些可以同時開工)
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
@@ -219,9 +226,11 @@ Total: 18000 USD
 | Implement RWD UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | CryptoLab on Phone and Tablet |
 | Telegram Bots for nominators     | Developer: 1 | 1.5 weeks | 2250 USD | Telegram Bots for nominators, included features described in Portfolio Management. |
 
+(多加一個 DevOps for maintenance / developer: 1, 1 weeks 項目)
+
 Total: 9750 USD
 
-### Milestone 3. (3-week)
+### Milestone 3. (3-week) (這是要算實作時間嗎？那應該短一些，有些可以同時開工)
  
  In this stage, we would like to apply the new UI/UX on current CryptoLab webpages, including *Kusama/Polkadot Validator/Nominator Status*, *Validator Dashboard* and *Kusama/Polkadot One Thousand Validator Monitor*.
  
