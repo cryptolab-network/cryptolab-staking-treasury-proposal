@@ -168,6 +168,7 @@ These events would be recorded.
 | commission change | CryptoLab would create an event when validator commission is changed. |
 | slash | CryptoLab would create an event when a validator is slashed. |
 | all inactive | CryptoLab would create an event when all nominated validators are inactive in an era. |
+| oversubscribed | CetproLab would create an event when a validator is oversubscribed. |
 
 Users are also able to setup the CryptoLab bots to Telegram or emails and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
 
@@ -182,7 +183,7 @@ For the Telegram Bots for nominators, we plan to provide the followings,
 
 * Notify users when a validator commission is changed.
 * Notify users when a validator is slashed.
-* Notify users when a validator is oversubscribed. (多加一個)
+* Notify users when a validator is oversubscribed.
 * Notify users when all validators they selected are inactive.
 * Regular revenue reports
 
