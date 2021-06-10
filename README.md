@@ -193,10 +193,6 @@ Current CryptoLab is running on a single VPS, and retrieve data on-chain through
 
 The servers is consist of two EC2 instances, one DB and one Redis instance, to operate the CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node so that on-chain data could be retrieved faster.
 
-### How does this proposal change the current logic in Kusama?
-
-(template 沒有這一題，我們也沒改變什麼原生的東西，拿掉？)
-
 ### Who does this solution help?
 
 We want to make staking simple so that DOT/KSM holders could choose to stake directly on chain instead of using wrapped solutions such as from centralized exchanges. Also, by providing an easy-to-understand view of validators, we want to ease the situation that most funds are gathered on a few validators to make the network more decentralized. Last but not least, we want to increase the chance for independent validators to be nominated.
@@ -205,7 +201,7 @@ We want to make staking simple so that DOT/KSM holders could choose to stake dir
 
 The milestones include 3 phases, we would send each milestone in separate proposals. The designer and developer cost are estimated as 1500 USD/week (full time)
 
-#### Milestone 1. (10-week) (這是要算實作時間嗎？那應該短一些，有些可以同時開工)
+#### Milestone 1. (11.5-week)
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
@@ -213,24 +209,21 @@ The milestones include 3 phases, we would send each milestone in separate propos
 | Implement CryptoLab Portfolio Benchmark | Developers: 2 | 2 weeks | 6000 USD | Webpages for nominators to filter validators by different conditions so that they can nominate them. |
 | Implement CryptoLab Portfolio Management | Developers: 2 | 4 weeks | 12000 USD | Webpages for nominators to monitor their revenue and validator status.  |
 | Implement CryptoLab Staking Guide | Developers: 1 | 1 weeks | 1500 USD | Webpages to guide nominators to stake on CryptoLab. |
+| Telegram Bots for nominators     | Developer: 1 | 1.5 weeks | 2250 USD | Telegram Bots for nominators, included features described in Portfolio Management. |
 
-(Telegram Bots for nominators. 移到 milestone 1，以增加完成性)
+Total: 26250 USD
 
-Total: 18000 USD
-
-#### Milestone 2. (4.5-week) (這是要算實作時間嗎？那應該短一些，有些可以同時開工)
+#### Milestone 2. (3-week)
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
 | RWD UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | Mockup UI in Adobe for Phone and Tablet  |
 | Implement RWD UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | CryptoLab on Phone and Tablet |
-| Telegram Bots for nominators     | Developer: 1 | 1.5 weeks | 2250 USD | Telegram Bots for nominators, included features described in Portfolio Management. |
+| DevOps for maintenance | Developers: 1 | 1 weeks | 1500 USD | CryptoLab on Phone and Tablet |
 
-(多加一個 DevOps for maintenance / developer: 1, 1 weeks 項目)
+Total: 9000 USD
 
-Total: 9750 USD
-
-### Milestone 3. (3-week) (這是要算實作時間嗎？那應該短一些，有些可以同時開工)
+### Milestone 3. (3-week)
  
  In this stage, we would like to apply the new UI/UX on current CryptoLab webpages, including *Kusama/Polkadot Validator/Nominator Status*, *Validator Dashboard* and *Kusama/Polkadot One Thousand Validator Monitor*.
  
@@ -271,16 +264,19 @@ Kusama ecosystem is friendly when it comes to staking. As the lowest staking amo
 
 [Validator Resource Center and Ranking Website for Kusama (Phase 2 - Milestones 6, 7, 8, 9, 10)](https://kusama.polkassembly.io/treasury/90)
 
-教育使用者，原本就是一件極困難且高成本的任務，更何況我們期待改變 Nominator 的行為，支持營運良好的validator，而非只看APY高低，這小小的轉變將使得 Polkadot/Kusama Network都更佳穩定。舉例來說 2021/5/24發生的事件 [Polkadot nodes failed with an out of memory (OOM) error on block 5,202,216.](https://polkadot.network/a-polkadot-postmortem-24-05-2021/)，當時的解決方案是將Polkadot版本降至0.8.30並且加上`--execution native` flag。幸好，社群節點營運者反應都很快，尤其是1kv，只花1小時10分鐘就解決問題。
+The Polkastats is a similar project, both of us are aimed to improve the staking procedure. The differences are
 
-我們的特色在於提供完善的solution，不僅是staking tool，並包括 Portfolio Managment及Bot通知，把整個流程完善，提供容易使用的操作介面。值得一提的是，我們還提供 1kv strategy，因為參加此方案的節點都必須遵守嚴格的規定，其節點營運與配合度都相對穩定，若能 Nominator 能支持這些節點，將帶來很多好處。未來還會推出更多不同的 strategy 來支持我們的理念。
+* We support Polkadot/Kusama
+* We proposed a total solution. Not only staking, but also allows users to monitor and manage their stakes after it.
+* We support Telegram Bots to notify users just in time.
 
+Teaching users is a challenging and high cost task, let alone we would like to change user behavior so that they are willing to support trustworthy validators, not just choose those who have higher APY. We hope that by doing it, we can make Polkadot/Kusama ecosystem much more stable and decentralized. Take the event in 5/24/2021, [Polkadot nodes failed with an out of memory (OOM) error on block 5,202,216.](https://polkadot.network/a-polkadot-postmortem-24-05-2021/). The network recovered soon because community node operators, especially those who joined the 1KV, took quick response. Thus we also provide a strategy to allow users to support 1kv operators.
 
 ## Payment conditions
 
 Address: 
 
-Total Payment: 47250 USD / 394.737 KSM = 119.7 KSM
+Total Payment: 48750 USD / 394.737 KSM = 123.5 KSM
 
 * To calculate the price, we use Subscan's 30 avg tool at the day of submission:
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
@@ -290,9 +286,9 @@ Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 1st milestone: include development and 6-month operation cost. 
 
 Operation cost to be paid once the proposal is approved (6000 USD / 394.747 KSM ~= 15.2 KSM)
-Development cost To be paid to after the report is approved (24000 USD / 394.747 KSM ~= 60.8 KSM)
+Development cost To be paid to after the report is approved (26250 USD / 394.747 KSM ~= 66.5 KSM)
 
-2nd milestone: to be paid to after the report is approved (9750 USD / 394.737 KSM ~= 24.7 KSM)
+2nd milestone: to be paid to after the report is approved (9000 USD / 394.737 KSM ~= 22.8 KSM)
 
 3rd milestone: to be paid to after the report is approved (7500 USD / 394.737 KSM ~= 19 KSM)
 
