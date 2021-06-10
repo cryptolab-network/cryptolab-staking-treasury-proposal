@@ -88,9 +88,6 @@ However, we saw there are no complete *Portfolio Management* solutions for Polka
 
 ## Proposal Objective/solution/s to point 2:
 
-(加一段說明 total solution 投前 投後)
-我們將完整的Staking解決方案分成兩大部分，首先 Portfolio Benchmark 解決 validators 難以評估的問題，讓 Nominator 能夠順利完成提名。接著是 Portfolio Management，幫助 Nominator 持續追蹤validator表現狀況，並提供主動式通知的功能，以便隨時調整提名。後續將以我們重新設計的介面，逐一介紹目前規劃的每一個功能。
-
 We provide *Portfolio Benchmark* to help nominators to choose which validators to nominate. *Portfolio Management* to help nominators to monitor validator status so they can make adjustment just in time.
 
 We have already provided some tools on CryptoLab and also Telegram bots and have some regular users. It is the time to polish the website and to work on providing a total solution for staking.
@@ -136,7 +133,7 @@ The following are the conditions we would like to take into account when we sele
 | ---------- | ---------- |
 | Self Stake | Users may input the minimum self stake |
 | Commision  | Users may input the maximum commission |
-| Identity   | Users may filter only validators with an identity |
+| Identity   | Users may filter only validators with a verified identity |
 | Unclaimed eras | Users may input the maximum unclaimed eras |
 | Previous slashes | Users may filter only validators with no slashing records |
 | Is Sub identity| Users may filter only validators which are not a sub identity |
@@ -156,11 +153,15 @@ In Portfolio Management, the CryptoLab would cover aspects such as revenue repor
 
 There would have several pages in Portfolio Management, the first one is *Performance*.
 
-In Performance page, users can see a summary of their earnings from all accounts in their wallets. There would have charts and tables, and users may choose different timespan to see the sum of their profit. Users may also see a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
+![image](https://user-images.githubusercontent.com/5772463/121519434-49c1c080-ca24-11eb-8611-cbe9f522de5e.png)
 
-The second one is unique, the Notification page. In this page, historical events would be listed. These events would be recorded.
+In Performance page, users can see a summary of their earnings from all accounts in their wallets. There would have a chart that shows their profit trend, users may choose different timespan to see the sum of their profit. Users may also see a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
+
+The second one is unique, the Notification page. In this page, historical events would be listed.
 
 ![image](https://user-images.githubusercontent.com/5772463/121495813-81247300-ca0c-11eb-9beb-8584aa489bcc.png)
+
+These events would be recorded.
 
 | event | description |
 | ----- | ----------- |
@@ -168,9 +169,11 @@ The second one is unique, the Notification page. In this page, historical events
 | slash | CryptoLab would create an event when a validator is slashed. |
 | all inactive | CryptoLab would create an event when all nominated validators are inactive in an era. |
 
-Users are also able to bind the CryptoLab bots to Telegram or emails and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
+Users are also able to setup the CryptoLab bots to Telegram or emails and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
 
 The CryptoLab would keep the events for 84 eras.
+
+In Portfolio Management, users may also re-nominate. CryptoLab would create a list of suggested validators according to the strategy they choose.  
 
 ### Telegram Bots for nominators
 
