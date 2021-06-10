@@ -76,9 +76,9 @@ There are developers from the community trying to resolve the problem by providi
 The goal of Yieldscan is just as their slogan "built to maximize staking yield and designed to minimize effort". It helps nominators to maximize their profit from staking. They used a risk level system, in which users can simply input staking amount, risk level, and duration. The system chooses 16 validators which fulfill the conditions users set, estimates the APY and help users to nominate them. Yieldscan also has dashboards of both validators and nominators. It supports both Polkadot and Kusama.
 
 
-2. polkastats (https://validatorsv2.kusama.polkastats.io/)
+2. Polkastats - Validator Resource Center (https://validatorsv2.kusama.polkastats.io/)
 
-Polkastats is another similar project, it is a validator resource center. The site uses VRC score, which is calculated from varieties of parameters. They help nominators by providing a dashboard of validators, displaying info such as commission, self stake, etc. so that nominators have a baseline to compare each other. Polkastats also has a nomination system, which focused on the decentralization of the network. It has a unique feature that nominators can import their validator sets to customize the next sets of validators. It support Kusama.
+Polkastats is another similar project, it is a validator resource center. The site uses VRC score, which is calculated from varieties of parameters. They help nominators by providing a dashboard of validators, displaying info such as commission, self stake, etc. so that nominators have a baseline to compare each other. Polkastats also has a nomination system, which focused on the decentralization of the network. It has a unique feature that nominators can import their validator sets to customize the next sets of validators. It supports Kusama.
 
 3. Staking tools in centralized exchanges / Auto staking service blockchains (e.g. https://stake.fish/en/)
 
@@ -267,9 +267,14 @@ Kusama ecosystem is friendly when it comes to staking. As the lowest staking amo
 
 ## If you have seen similar proposals before: why is yours different?
 
-https://kusama.polkassembly.io/treasury/82
+[Validator Resource Center and Ranking Website for Kusama (Phase 2) - Report](https://kusama.polkassembly.io/treasury/82)
 
-https://kusama.polkassembly.io/treasury/90
+[Validator Resource Center and Ranking Website for Kusama (Phase 2 - Milestones 6, 7, 8, 9, 10)](https://kusama.polkassembly.io/treasury/90)
+
+教育使用者，原本就是一件極困難且高成本的任務，更何況我們期待改變 Nominator 的行為，支持營運良好的validator，而非只看APY高低，這小小的轉變將使得 Polkadot/Kusama Network都更佳穩定。舉例來說 2021/5/24發生的事件 [Polkadot nodes failed with an out of memory (OOM) error on block 5,202,216.](https://polkadot.network/a-polkadot-postmortem-24-05-2021/)，當時的解決方案是將Polkadot版本降至0.8.30並且加上`--execution native` flag。幸好，社群節點營運者反應都很快，尤其是1kv，只花1小時10分鐘就解決問題。
+
+我們的特色在於提供完善的solution，不僅是staking tool，並包括 Portfolio Managment及Bot通知，把整個流程完善，提供容易使用的操作介面。值得一提的是，我們還提供 1kv strategy，因為參加此方案的節點都必須遵守嚴格的規定，其節點營運與配合度都相對穩定，若能 Nominator 能支持這些節點，將帶來很多好處。未來還會推出更多不同的 strategy 來支持我們的理念。
+
 
 ## Payment conditions
 
