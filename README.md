@@ -201,7 +201,7 @@ so that nominators are able to make adjustment in time.
 
 Current CryptoLab is running on a single VPS, and retrieve data on-chain through either Parity or onFinality. There is still room for improvement. Retrieving validators and nominators data while listening to Payout events and saving them to a DB could be longer than 30 minutes. We plan to separate the processes to different instances and use the resource on AWS to improve the performance.
 
-![image](https://user-images.githubusercontent.com/3665658/121481654-ecffdf00-c9fe-11eb-8667-012544da1385.png)
+![image](https://user-images.githubusercontent.com/3665658/121618770-fbe79f80-ca99-11eb-8043-4e880de570e8.png)
 
 The servers is consist of two EC2 instances, one DB and one Redis instance, to operate the CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node so that on-chain data could be retrieved faster.
 
