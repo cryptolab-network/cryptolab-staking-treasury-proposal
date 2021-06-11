@@ -19,10 +19,6 @@ Portfolio Benchmark helps nominators to evaluate which validators should they st
 
 The real difference that makes CryptoLab outstanding is the Portfolio Management. We would like to help nominators to track their revenue and to suggest new sets of validators according to the criteria they set. We also would like to help nominators to make adjustment in time to prevent from profit loss, by notifying them when a validator increased its commission or when a validator is being slashed.
 
-(我覺得這邊有點跳, 怎麼突然扯到decentralization)
-
-Decentralization is the key to make long term Polkadot/Kusama ecosystem healthy. Our utmost goal is to help nominators to get stable income while keep the system dencentralized.
-
 ## Context of the proposal: 
 
 We first acted as Kusama validators to cut in to the ecosystem. We found that the entry barrier was quite high. For example, to lower the risk, as a validator, we would like to estimate how much funds we need, and what is the revenue after we start operating. However, we can't find any tool to help us, there were indeed some APY estimation tools on the web but they were just static not useful at all. The only choice was the Polkadot App but it was complicated and still lacks of necessary information such as long-term APY. Another problem is that personal operators were nearly impossible to get enough backup to be consistently active. Operators are hard to be nominated if they were not in the active set, and they can't be in the active set because they are hard to be nominated.
@@ -56,8 +52,10 @@ We also released the Kusama and Polkadot bots for validators several weeks later
 ### Feedbacks from the Community
 
 We appreciate the feedbacks from the community, which encouraged us to make it better.
-(先詢問，同意後再放上去)
 
+<img src="https://user-images.githubusercontent.com/3665658/121636575-abcd0500-caba-11eb-9c97-1c0068beef24.png" width="500">
+<img src="https://user-images.githubusercontent.com/3665658/121636603-b4bdd680-caba-11eb-861e-6fea3f323ffa.png" width="500">
+<img src="https://user-images.githubusercontent.com/3665658/121637358-d8355100-cabb-11eb-9213-cb3cfaab8e3a.png" width="650">
 
 ## Problem statement: 
 
