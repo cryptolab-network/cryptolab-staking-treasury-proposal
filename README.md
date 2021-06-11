@@ -59,6 +59,7 @@ We appreciate the feedbacks from the community, which encouraged us to make it b
 
 <img src="https://user-images.githubusercontent.com/3665658/121636575-abcd0500-caba-11eb-9c97-1c0068beef24.png" width="500">
 <img src="https://user-images.githubusercontent.com/3665658/121636603-b4bdd680-caba-11eb-861e-6fea3f323ffa.png" width="500">
+<img src="https://user-images.githubusercontent.com/3665658/121637358-d8355100-cabb-11eb-9213-cb3cfaab8e3a.png" width="650">
 
 ## Problem statement: 
 
