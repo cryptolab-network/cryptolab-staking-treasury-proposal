@@ -19,10 +19,6 @@ Portfolio Benchmark helps nominators to evaluate which validators should they st
 
 The real difference that makes CryptoLab outstanding is the Portfolio Management. We would like to help nominators to track their revenue and to suggest new sets of validators according to the criteria they set. We also would like to help nominators to make adjustment in time to prevent from profit loss, by notifying them when a validator increased its commission or when a validator is being slashed.
 
-(我覺得這邊有點跳, 怎麼突然扯到decentralization)
-
-Decentralization is the key to make long term Polkadot/Kusama ecosystem healthy. Our utmost goal is to help nominators to get stable income while keep the system dencentralized.
-
 ## Context of the proposal: 
 
 We first acted as Kusama validators to cut in to the ecosystem. We found that the entry barrier was quite high. For example, to lower the risk, as a validator, we would like to estimate how much funds we need, and what is the revenue after we start operating. However, we can't find any tool to help us, there were indeed some APY estimation tools on the web but they were just static not useful at all. The only choice was the Polkadot App but it was complicated and still lacks of necessary information such as long-term APY. Another problem is that personal operators were nearly impossible to get enough backup to be consistently active. Operators are hard to be nominated if they were not in the active set, and they can't be in the active set because they are hard to be nominated.
