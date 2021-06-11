@@ -225,7 +225,7 @@ The milestones include 3 phases, we would send each milestone in separate propos
 
 Total: 26250 USD
 
-#### Milestone 2. (3-week)
+#### Milestone 2. (4-week)
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
