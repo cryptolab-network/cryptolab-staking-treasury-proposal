@@ -201,7 +201,7 @@ so that nominators are able to make adjustment in time.
 
 Current CryptoLab is running on a single VPS, and retrieve data on-chain through either Parity or onFinality. There is still room for improvement. Retrieving validators and nominators data while listening to Payout events and saving them to a DB could be longer than 30 minutes. We plan to separate the processes to different instances and use the resource on AWS to improve the performance.
 
-![image](https://user-images.githubusercontent.com/3665658/121618770-fbe79f80-ca99-11eb-8043-4e880de570e8.png)
+![image](https://user-images.githubusercontent.com/3665658/121481654-ecffdf00-c9fe-11eb-8667-012544da1385.png)
 
 The servers is consist of two EC2 instances, one DB and one Redis instance, to operate the CryptoLab backend servers. We would also run two EC2 instances for Polkadot/Kusama node so that on-chain data could be retrieved faster.
 
@@ -288,22 +288,22 @@ Teaching users is a challenging and high cost task, let alone we would like to c
 
 Address: 
 
-Total Payment: 48750 USD / 394.737 KSM = 123.5 KSM
+Total Payment: 48750 USD / 397.592 KSM = 122.61 KSM
 
 * To calculate the price, we use Subscan's 30 avg tool at the day of submission:
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 
 * Treasury timeline related to milestones. We expect to have a report upon each milestone is done and online.
 
-1st milestone: include development and 6-month operation cost. 
+* 1st milestone: include development and 6-month operation cost. 
 
-* Operation cost to be paid once the proposal is approved (6000 USD / 394.747 KSM ~= 15.2 KSM)
+ Operation cost to be paid once the proposal is approved (6000 USD / 397.592 KSM ~= 15.09 KSM)
 
-* Development cost To be paid to after the report is approved (26250 USD / 394.747 KSM ~= 66.5 KSM)
+ Development cost To be paid to after the report is approved (26250 USD / 397.592 KSM ~= 66.02 KSM)
 
-2nd milestone: to be paid to after the report is approved (9000 USD / 394.737 KSM ~= 22.8 KSM)
+* 2nd milestone: to be paid to after the report is approved (9000 USD / 397.592 KSM ~= 22.64 KSM)
 
-3rd milestone: to be paid to after the report is approved (7500 USD / 394.737 KSM ~= 19 KSM)
+* 3rd milestone: to be paid to after the report is approved (7500 USD / 397.592 KSM ~= 18.86 KSM)
 
 We would send proposals for each milestone once the previous milestone's final report is approved.
 
