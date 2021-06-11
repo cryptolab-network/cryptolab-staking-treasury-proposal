@@ -33,12 +33,11 @@ We believe that it is time for us to make a big step, to provide a total solutio
 
 ### The Team
 
-* Yao-hsin Chen, studying blockchain from 2016, is one of the organizer of Taipei Ethereum Meetup. He co-founded the SOLA Technology and was the CEO until the end of 2020, in which he applied blockchain to solar monitoring and management. He forms the CryptoLab Team from this year, and is now a Polkadot/Kusama node operator.
+* Yao-hsin Chen, who began to study blockchain from 2016, is one of the organizer of Taipei Ethereum Meetup. He co-founded the SOLA Technology and was the CEO until the end of 2020, in which he applied blockchain to solar monitoring and management. He forms the CryptoLab Team from this year, and is now a Polkadot/Kusama node operator.
 
 * Yu-kai Tseng, who has 9-year experience on developing Industrial Ethernet Network Management System, is now freelancer. He is expert in distributed network service design and development and began to work on the first version of CryptoLab in 2021.
 
-* Kin, who has 15-year experience on UI/UX. He is expert in 使用者體驗流程和網站整體設計規範. 
-15年UI/UX設計經驗，曾負責多項國內外大型企業網站流程/交互/應用設計，所經歷產業有語文線上學習/遊戲開發/政府機構與觀光旅遊產業。
+* Kin, who has 15-year experience on UI/UX. He is expert in user experience and website design guidelines. He worked for language learning, gaming, government and tourism industry.
 
 * Jack, who began to work in blockchain technology from 2017. He joined SOLA Technology from 2018, in which he is a full-stack developer. He developed applications which combined blockchain with solar monitoring and management.
 
@@ -156,13 +155,25 @@ There would have several pages in Portfolio Management, the first one is *Perfor
 
 ![image](https://user-images.githubusercontent.com/5772463/121611370-abb51100-ca8a-11eb-8f0b-ceaba91b5850.png)
 
-In Performance page, users can see a summary of their earnings from all accounts in their wallets. There would have a chart that shows their profit trend, users may choose different timespan to see the sum of their profit. Users may also see a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
+In Performance page, users are able to see
 
-The second one is unique, the Notification page. In this page, historical events would be listed.
+* a summary of their earnings from all accounts in their wallets. 
+* a chart that shows their profit trend, users may choose different timespan to see the sum of their profit. 
+* a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
+* re-nominate validators
+
+CryptoLab would create a list of suggested validators according to the strategy they choose.  
+
+The second one is unique, the Notification page
 
 ![image](https://user-images.githubusercontent.com/5772463/121495813-81247300-ca0c-11eb-9beb-8584aa489bcc.png)
 
-These events would be recorded.
+In this page, users are able to see,
+
+* historical events, up to 84 eras.
+* setup CryptoBots on Telegram or on email.
+
+These events would be recorded, and users can be notified on Telegram and email.
 
 | event | description |
 | ----- | ----------- |
@@ -171,11 +182,7 @@ These events would be recorded.
 | all inactive | CryptoLab would create an event when all nominated validators are inactive in an era. |
 | oversubscribed | CetproLab would create an event when a validator is oversubscribed. |
 
-Users are also able to setup the CryptoLab bots to Telegram or emails and see regular revenue reports and be notified when a validator increases the commission or a validator is slashed. There would have an event summary to list recent validator changes.
-
-The CryptoLab would keep the events for 84 eras.
-
-In Portfolio Management, users may also re-nominate. CryptoLab would create a list of suggested validators according to the strategy they choose.  
+Revenue reports would also be sent to them regularly.
 
 ### Telegram Bots for nominators
 
@@ -193,8 +200,6 @@ so that nominators are able to make adjustment in time.
 ### Planned Service Architecture
 
 Current CryptoLab is running on a single VPS, and retrieve data on-chain through either Parity or onFinality. There is still room for improvement. Retrieving validators and nominators data while listening to Payout events and saving them to a DB could be longer than 30 minutes. We plan to separate the processes to different instances and use the resource on AWS to improve the performance.
-
-(圖上 多加一個 Kusama node)
 
 ![image](https://user-images.githubusercontent.com/3665658/121481654-ecffdf00-c9fe-11eb-8667-012544da1385.png)
 
