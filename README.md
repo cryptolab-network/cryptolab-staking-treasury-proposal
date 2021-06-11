@@ -106,15 +106,6 @@ The first two goals are focused on making what we have done better. We plan to e
 
 The goal 2. and 3. are what we are planning to do. 
 
-如下表所示，假設有6個validator，其中3個是active，另外3個是inactive，每個nominator可以提名3個validators。一般來說的，nominators無法分辨下列兩種提名組合的差異，因此會偏好選擇 High APY 且 Active nodes，如 Nomination Set 1. 但是根據 the sequential Phragmén method的演算結果，Nomination Set 2跟Set 1的收益狀況並不會有什麼差異，因為他選擇了兩個 Inclusion 100%的validator，已經確定每次都會獲得收益。那麼要如何讓 nominator 可以放心的選擇 Set 2 而不是執著於 Set 1，就是我們想要達成的目標。
-
-| Validators | A (active), APY: 17%, Inclusion: 100% | B (active), APY: 16%, Inclusion: 100% | C (active), APY: 15%, Inclusion: 50% | D (inactive), APY: -, Inclusion: 25% | E (inactive), APY: -, Inclusion: 10% | F (inactive), APY: -, Inclusion: 0% |
-| ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
-| Nomination Set 1 | V | V |  V |  V  |   |   | 
-| Nomination Set 2 | V | V |   |    | V  |  V  | 
-
-我們的理論是 **逐步轉變** ，其流程是這樣的。Nominator一開始會毫無疑問的選擇 Nominator Set 1，接著 Portfolio Management會追蹤validator表現狀況，這時候我們可以推薦新的提名建議，在不影響APY的情況下，逐漸轉變為Nominator Set 2。
-
 ### Portfolio Benchmark
 
 In Portfolio Benchmark, we would like to help DOT/KSM holders to stake in a single step. It has two modes, simple and advanced.
@@ -171,7 +162,14 @@ In Performance page, users are able to see
 * a detailed report of how much they earn through all eras, similar to the Staking Rewards Collector.
 * re-nominate validators
 
-CryptoLab would create a list of suggested validators according to the strategy they choose.  
+CryptoLab would create a list of suggested validators according to the strategy they choose while including several inactive nodes st the same time. Our theory is to **gradually changing the staking behavior**. 
+
+Take the following example, assume there are 6 validators, three of them are active and the others are inactive. Each nominator can nominate up to three validators. In general, nominators tend to choose those who has high inclusion rate and APY (Set 1. in the table below). However, because Polkadot/Kusama uses the result of the sequential Phragmén method, the revenue would be similar regardless nominators choose the Set 1. or the Set 2. Our goal is to make nominators rest assured to choose Set 2. (or any sets that contains inactive nodes) to make funds more decentralized.
+
+| Validators | A (active), APY: 17%, Inclusion: 100% | B (active), APY: 16%, Inclusion: 100% | C (active), APY: 15%, Inclusion: 50% | D (inactive), APY: -, Inclusion: 25% | E (inactive), APY: -, Inclusion: 10% | F (inactive), APY: -, Inclusion: 0% |
+| ---------- | ---------- | ---------- | ---------- | ---------- | ---------- | ---------- |
+| Nomination Set 1 | V | V |  V |  V  |   |   | 
+| Nomination Set 2 | V | V |   |    | V  |  V  | 
 
 The second one is unique, the Notification page
 
