@@ -114,7 +114,7 @@ Nominators first need to allow CryptoLab in Polkadot Browser Extension. The webs
 
 In simple mode, our goal is to make a one-button staking feature.
 
-![image](https://user-images.githubusercontent.com/5772463/121184696-ed319a80-c897-11eb-93e3-3285c705f6fa.png)
+![image](https://user-images.githubusercontent.com/3665658/121618019-a494ff80-ca98-11eb-960e-5289fc15ce1a.png)
 
 We offer several strategies to help users to select validators. The following table is the detailed description of these strategies.
 
@@ -141,7 +141,7 @@ The following are the conditions we would like to take into account when we sele
 | Inclusion | Users may input the minimum era inclusion rate in previous 84 eras |
 | Telemetry | Users may filter only validators which can be bound to a telemetry |
 
-![image](https://user-images.githubusercontent.com/5772463/121305770-93c97a00-c930-11eb-953f-9a8ef607aa12.png)
+![image](https://user-images.githubusercontent.com/3665658/121617856-5da70a00-ca98-11eb-8c85-b8111761be2a.png)
 
 They then could input how much funds they want to stake and they are able to select their reward destinations, there are three possible options the same as on the Polkadot App.
 
@@ -166,7 +166,7 @@ CryptoLab would create a list of suggested validators according to the strategy 
 
 The second one is unique, the Notification page
 
-![image](https://user-images.githubusercontent.com/5772463/121495813-81247300-ca0c-11eb-9beb-8584aa489bcc.png)
+![image](https://user-images.githubusercontent.com/3665658/121618476-66e4a680-ca99-11eb-894b-3b6946a0a4d5.png)
 
 In this page, users are able to see,
 
