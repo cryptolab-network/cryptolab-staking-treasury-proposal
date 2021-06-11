@@ -297,9 +297,9 @@ Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 
 1st milestone: include development and 6-month operation cost. 
 
-Operation cost to be paid once the proposal is approved (6000 USD / 394.747 KSM ~= 15.2 KSM)
+* Operation cost to be paid once the proposal is approved (6000 USD / 394.747 KSM ~= 15.2 KSM)
 
-Development cost To be paid to after the report is approved (26250 USD / 394.747 KSM ~= 66.5 KSM)
+* Development cost To be paid to after the report is approved (26250 USD / 394.747 KSM ~= 66.5 KSM)
 
 2nd milestone: to be paid to after the report is approved (9000 USD / 394.737 KSM ~= 22.8 KSM)
 
