@@ -56,8 +56,9 @@ We also released the Kusama and Polkadot bots for validators several weeks later
 ### Feedbacks from the Community
 
 We appreciate the feedbacks from the community, which encouraged us to make it better.
-(先詢問，同意後再放上去)
 
+<img src="https://user-images.githubusercontent.com/3665658/121636575-abcd0500-caba-11eb-9c97-1c0068beef24.png" width="500">
+<img src="https://user-images.githubusercontent.com/3665658/121636603-b4bdd680-caba-11eb-861e-6fea3f323ffa.png" width="500">
 
 ## Problem statement: 
 
