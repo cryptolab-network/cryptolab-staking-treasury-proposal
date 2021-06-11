@@ -217,7 +217,7 @@ The milestones include 3 phases, we would send each milestone in separate propos
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| Re-design the UI/UX of CryptoLab     | Designer: 1 | 3 weeks | 4,500 USD | Mockup UI in Adobe |
+| Re-design the UI/UX of CryptoLab     | Designer: 1 | 3 weeks | 4,500 USD | Mockup UI in Adobe Creative Cloud |
 | Implement CryptoLab Portfolio Benchmark | Developers: 2 | 2 weeks | 6000 USD | Webpages for nominators to filter validators by different conditions so that they can nominate them. |
 | Implement CryptoLab Portfolio Management | Developers: 2 | 4 weeks | 12000 USD | Webpages for nominators to monitor their revenue and validator status.  |
 | Implement CryptoLab Staking Guide | Developers: 1 | 1 weeks | 1500 USD | Webpages to guide nominators to stake on CryptoLab. |
@@ -229,9 +229,9 @@ Total: 26250 USD
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| RWD UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | Mockup UI in Adobe for Phone and Tablet  |
+| RWD UI/UX of CryptoLab     | Designer: 1 | 1 weeks | 1,500 USD | Mockup UI in Adobe Creative Cloud for Phone and Tablet  |
 | Implement RWD UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | CryptoLab on Phone and Tablet |
-| DevOps for maintenance | Developers: 1 | 1 weeks | 1500 USD | CryptoLab on Phone and Tablet |
+| DevOps for maintenance | Developers: 1 | 1 weeks | 1500 USD | Internal dashboard to display service status such as chain data last updated time, online/offline, bandwidth usage, etc. |
 
 Total: 9000 USD
 
@@ -241,7 +241,7 @@ Total: 9000 USD
  
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| Re-design UI/UX of CryptoLab    | Designer: 1 | 1 weeks | 1,500 USD | Mockup UI in Adobe |
+| Re-design UI/UX of CryptoLab    | Designer: 1 | 1 weeks | 1,500 USD | Mockup UI in Adobe Creative Cloud |
 | Implement Re-designed UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | Reworked webpages |
 
 Total: 7500 USD
