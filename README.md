@@ -304,7 +304,11 @@ Teaching users is a challenging and high-cost task, let alone we would like to c
 
 Address: 
 
-Total Payment: 48750 USD / 353.869 KSM = 137.76 KSM
+Total Payment: 48750 USD. It would be split to apply to both treasury because the CryptoLab would support both networks.
+The applied support would be,
+
+* Kusama: 24000 USD = 67.83 KSM
+* Polkadot: 24750 USD = 1081.73 DOT
 
 * To calculate the price, we use Subscan's 30 avg tool on the day of submission:
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
