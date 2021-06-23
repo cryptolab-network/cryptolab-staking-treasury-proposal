@@ -300,7 +300,7 @@ Teaching users is a challenging and high-cost task, let alone we would like to c
 
 ## Payment conditions
 
-*Payment conditions would further be adjusted to correspond to the price fluctuations recently.
+*Payment conditions would further be adjusted according to the 30-day avg. price when submitted on-chain in order to correspond to the price fluctuations recently.
 
 Address: 
 
@@ -311,7 +311,7 @@ The applied support would be,
 * Polkadot: 24750 USD = 1081.73 DOT
 
 * To calculate the price, we use Subscan's 30 avg tool on the day of submission:
-Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
+Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/23/2021)
 
 * Treasury timeline is related to milestones. We expect to have a report upon each milestone is done and online.
 
