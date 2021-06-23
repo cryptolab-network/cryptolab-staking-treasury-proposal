@@ -240,7 +240,7 @@ Milestone 2. will be submitted to Polkadot Treasury.
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| Implement the Polkadot part | Developers: 2 | 3.5 weeks | 5,250 USD | Polkadot part of Milestone 1. |
+| Implement the Polkadot part | Developers:  | 3.5 weeks | 5,250 USD | Polkadot part of Milestone 1. |
 | RWD UI/UX of CryptoLab     | Designer: 1 | 1 week | 1,500 USD | Mockup UI in Adobe Creative Cloud for Phone and Tablet  |
 | Implement RWD UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6,000 USD | CryptoLab on Phone and Tablet |
 | DevOps for maintenance | Developers: 1 | 1 week | 1,500 USD | Internal dashboard to display service status such as chain data last updated time, online/offline, bandwidth usage, etc. |
