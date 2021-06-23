@@ -227,10 +227,10 @@ Milestone 1. will be submitted to Kusama Treasury. The duration and cost would o
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
 | Re-design the UI/UX of CryptoLab     | Designer: 1 | 3 weeks | 4,500 USD | Mockup UI in Adobe Creative Cloud |
-| Implement CryptoLab Portfolio Benchmark | Developers: 2 | 1.5 weeks | 4500 USD | Webpages for nominators to filter validators by different conditions so that they can nominate them. |
-| Implement CryptoLab Portfolio Management | Developers: 2 | 3 weeks | 9000 USD | Web pages for nominators to monitor their revenue and validator status.  |
-| Implement CryptoLab Staking Guide | Developers: 1 | 1 week | 1500 USD | Webpages to guide nominators to stake on CryptoLab. |
-| Telegram Bots for nominators     | Developer: 1 | 1 weeks | 1500 USD | Telegram Bots for nominators included features described in Portfolio Management. |
+| Implement CryptoLab Portfolio Benchmark | Developers: 2 | 1.5 weeks | 4,500 USD | Webpages for nominators to filter validators by different conditions so that they can nominate them. |
+| Implement CryptoLab Portfolio Management | Developers: 2 | 3 weeks | 9,000 USD | Web pages for nominators to monitor their revenue and validator status.  |
+| Implement CryptoLab Staking Guide | Developers: 1 | 1 week | 1,500 USD | Webpages to guide nominators to stake on CryptoLab. |
+| Telegram Bots for nominators     | Developer: 1 | 1 weeks | 1,500 USD | Telegram Bots for nominators included features described in Portfolio Management. |
 
 Total: 21000 USD
 
@@ -240,12 +240,12 @@ Milestone 2. will be submitted to Polkadot Treasury.
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
-| Implement the Polkadot part | Developers: 2 | 3.5 weeks | 5250 USD | Polkadot part of Milestone 1. |
+| Implement the Polkadot part | Developers: 2 | 3.5 weeks | 5,250 USD | Polkadot part of Milestone 1. |
 | RWD UI/UX of CryptoLab     | Designer: 1 | 1 week | 1,500 USD | Mockup UI in Adobe Creative Cloud for Phone and Tablet  |
-| Implement RWD UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | CryptoLab on Phone and Tablet |
-| DevOps for maintenance | Developers: 1 | 1 week | 1500 USD | Internal dashboard to display service status such as chain data last updated time, online/offline, bandwidth usage, etc. |
+| Implement RWD UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6,000 USD | CryptoLab on Phone and Tablet |
+| DevOps for maintenance | Developers: 1 | 1 week | 1,500 USD | Internal dashboard to display service status such as chain data last updated time, online/offline, bandwidth usage, etc. |
 
-Total: 9000 USD
+Total: 14250 USD
 
 ### Milestone 3. (3-week)
  
@@ -254,7 +254,7 @@ Total: 9000 USD
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
 | Re-design UI/UX of CryptoLab    | Designer: 1 | 1 week | 1,500 USD | Mockup UI in Adobe Creative Cloud |
-| Implement Re-designed UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | Reworked webpages |
+| Implement Re-designed UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6,000 USD | Reworked webpages |
 
 Total: 7500 USD
 
@@ -268,9 +268,9 @@ The operation costs later than 6 months would be applied in future proposals if 
 
 | Description | Duration | Price | Total | 
 | ----------- | --------- | -------- | ----- |
-| Operation cost for CryptoLab     | 6 months | 250 USD | 1500 USD |
-| Operation cost for runnig Polkadot Node | 6 months | 375 USD | 2250 USD |
-| Operation cost for runnig Kusama Node | 6 months | 375 USD | 2250 USD |
+| Operation cost for CryptoLab     | 6 months | 250 USD | 1,500 USD |
+| Operation cost for runnig Polkadot Node | 6 months | 375 USD | 2,250 USD |
+| Operation cost for runnig Kusama Node | 6 months | 375 USD | 2,250 USD |
 
 The operation cost would be split evenly to submit to both network.
 
@@ -300,9 +300,11 @@ Teaching users is a challenging and high-cost task, let alone we would like to c
 
 ## Payment conditions
 
+*Payment conditions would further be adjusted to correspond to the price fluctuations recently.
+
 Address: 
 
-Total Payment: 48750 USD / 397.592 KSM = 122.61 KSM
+Total Payment: 48750 USD / 353.869 KSM = 137.76 KSM
 
 * To calculate the price, we use Subscan's 30 avg tool on the day of submission:
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
@@ -311,15 +313,15 @@ Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/9/2021)
 
 * 1st milestone: include development and 6-month operation cost. 
 
- Operation cost to be paid once the proposal is approved (6000 USD / 397.592 KSM ~= 15.09 KSM)
+ Operation cost to be paid once the proposal is approved (3000 USD / 353.862 KSM ~= 8.48 KSM)
 
- Development cost to be paid after the report is approved (26250 USD / 397.592 KSM ~= 66.02 KSM)
+ Development cost to be paid after the report is approved (21000 USD / 353.86 KSM ~= 59.35 KSM)
 
-* 2nd milestone: to be paid after the report is approved (9000 USD / 397.592 KSM ~= 22.64 KSM)
+* 2nd milestone: to be paid after the report is approved (14250 USD / 22.88 KSM ~= 622.81 DOT)
 
-* 3rd milestone: to be paid after the report is approved (7500 USD / 397.592 KSM ~= 18.86 KSM)
+ Operation cost to be paid once the proposal is approved (3000 USD / 22.88 KSM ~= 131.12 DOT)
 
-We would send proposals for each milestone once the previous milestone's final report is approved.
+* 3rd milestone: to be paid after the report is approved (7500 USD / 22.88 KSM ~= 327.8 DOT)
 
 * Development work will start upon approval.
 
