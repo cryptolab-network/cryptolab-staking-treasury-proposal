@@ -220,22 +220,27 @@ We want to make staking simple so that DOT/KSM holders could choose to stake dir
 
 The milestones include 3 phases, we would send each milestone in separate proposals. The designer and developer cost is estimated as 1500 USD/week (full time)
 
-#### Milestone 1. (11.5-week)
+#### Milestone 1. (9.5-week)
+
+Milestone 1. will be submitted to Kusama Treasury. The duration and cost would only cover the Kusama part.
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
 | Re-design the UI/UX of CryptoLab     | Designer: 1 | 3 weeks | 4,500 USD | Mockup UI in Adobe Creative Cloud |
-| Implement CryptoLab Portfolio Benchmark | Developers: 2 | 2 weeks | 6000 USD | Webpages for nominators to filter validators by different conditions so that they can nominate them. |
-| Implement CryptoLab Portfolio Management | Developers: 2 | 4 weeks | 12000 USD | Web pages for nominators to monitor their revenue and validator status.  |
+| Implement CryptoLab Portfolio Benchmark | Developers: 2 | 1.5 weeks | 4500 USD | Webpages for nominators to filter validators by different conditions so that they can nominate them. |
+| Implement CryptoLab Portfolio Management | Developers: 2 | 3 weeks | 9000 USD | Web pages for nominators to monitor their revenue and validator status.  |
 | Implement CryptoLab Staking Guide | Developers: 1 | 1 week | 1500 USD | Webpages to guide nominators to stake on CryptoLab. |
-| Telegram Bots for nominators     | Developer: 1 | 1.5 weeks | 2250 USD | Telegram Bots for nominators included features described in Portfolio Management. |
+| Telegram Bots for nominators     | Developer: 1 | 1 weeks | 1500 USD | Telegram Bots for nominators included features described in Portfolio Management. |
 
-Total: 26250 USD
+Total: 21000 USD
 
-#### Milestone 2. (4-week)
+#### Milestone 2. (7.5-week)
+
+Milestone 2. will be submitted to Polkadot Treasury.
 
 | Description | Man-power | Duration | Price | Deliverables |
 | ----------- | --------- | -------- | ----- | ------------ |
+| Implement the Polkadot part | Developers: 2 | 3.5 weeks | 5250 USD | Polkadot part of Milestone 1. |
 | RWD UI/UX of CryptoLab     | Designer: 1 | 1 week | 1,500 USD | Mockup UI in Adobe Creative Cloud for Phone and Tablet  |
 | Implement RWD UI/UX of CryptoLab | Developers: 2 | 2 weeks | 6000 USD | CryptoLab on Phone and Tablet |
 | DevOps for maintenance | Developers: 1 | 1 week | 1500 USD | Internal dashboard to display service status such as chain data last updated time, online/offline, bandwidth usage, etc. |
@@ -261,11 +266,13 @@ The operation cost includes EC2 instances, DB, and Redis instances, to run Crypt
 
 The operation costs later than 6 months would be applied in future proposals if this one is being approved.
 
-
 | Description | Duration | Price | Total | 
 | ----------- | --------- | -------- | ----- |
 | Operation cost for CryptoLab     | 6 months | 250 USD | 1500 USD |
-| Operation cost for runnig Polkadot/Kusama Nodes | 6 months | 750 USD | 4500 USD |
+| Operation cost for runnig Polkadot Node | 6 months | 375 USD | 2250 USD |
+| Operation cost for runnig Kusama Node | 6 months | 375 USD | 2250 USD |
+
+The operation cost would be split evenly to submit to both network.
 
 Total: 6000 USD
 
