@@ -307,8 +307,8 @@ Address:
 Total Payment: 48750 USD. It would be split to apply to both treasury because the CryptoLab would support both networks.
 The applied support would be,
 
-* Kusama: 24000 USD = 67.83 KSM
-* Polkadot: 24750 USD = 1081.73 DOT
+* Kusama: 24000 USD / 353.862 KSM = 67.83 KSM
+* Polkadot: 24750 USD / 22.88 DOT = 1081.73 DOT
 
 * To calculate the price, we use Subscan's 30 avg tool on the day of submission:
 Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/23/2021)
@@ -321,11 +321,11 @@ Kusama: https://kusama.subscan.io/tools/charts?type=price (based on 6/23/2021)
 
  Development cost to be paid after the report is approved (21000 USD / 353.86 KSM ~= 59.35 KSM)
 
-* 2nd milestone: to be paid after the report is approved (14250 USD / 22.88 KSM ~= 622.81 DOT)
+* 2nd milestone: to be paid after the report is approved (14250 USD / 22.88 DOT ~= 622.81 DOT)
 
- Operation cost to be paid once the proposal is approved (3000 USD / 22.88 KSM ~= 131.12 DOT)
+ Operation cost to be paid once the proposal is approved (3000 USD / 22.88 DOT ~= 131.12 DOT)
 
-* 3rd milestone: to be paid after the report is approved (7500 USD / 22.88 KSM ~= 327.8 DOT)
+* 3rd milestone: to be paid after the report is approved (7500 USD / 22.88 DOT ~= 327.8 DOT)
 
 * Development work will start upon approval.
 
