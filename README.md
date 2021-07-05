@@ -302,7 +302,7 @@ Teaching users is a challenging and high-cost task, let alone we would like to c
 
 *Payment conditions would further be adjusted according to the 30-day avg. price when submitted on-chain in order to correspond to the price fluctuations recently.
 
-Address: 
+Address: DBBFZxZqGPb2LSQSA4WHugerXGwm2ivywqdPxVnsJA9oyV3
 
 Total Payment: 48750 USD. It would be split to apply to both treasury because the CryptoLab would support both networks.
 The applied support would be,
