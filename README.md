@@ -307,7 +307,7 @@ Address: DBBFZxZqGPb2LSQSA4WHugerXGwm2ivywqdPxVnsJA9oyV3
 Total Payment: 48750 USD. It would be split to apply to both treasury because the CryptoLab would support both networks.
 The applied support would be,
 
-* Kusama: 24000 USD / 353.862 KSM = 89.08 KSM
+* Kusama: 24000 USD / 269.42 KSM = 89.08 KSM
 * Polkadot: 24750 USD / 18.798 DOT = 1316.63 DOT
 
 * To calculate the price, we use Subscan's 30 avg tool on the day of submission:
